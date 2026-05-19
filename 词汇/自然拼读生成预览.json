@@ -1,0 +1,4265 @@
+[
+  {
+    "word": "a.m.",
+    "cmu": "AE1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/æm/"
+    ]
+  },
+  {
+    "word": "ability",
+    "cmu": "AH0 B IH1 L AH0 T IY2",
+    "syllableCount": 4,
+    "sounds": [
+      "/ʌ/",
+      "/bɪ/",
+      "/lʌ/",
+      "/tiː/"
+    ]
+  },
+  {
+    "word": "able",
+    "cmu": "EY1 B AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/eɪ/",
+      "/bʌl/"
+    ]
+  },
+  {
+    "word": "about",
+    "cmu": "AH0 B AW1 T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/baʊt/"
+    ]
+  },
+  {
+    "word": "above",
+    "cmu": "AH0 B AH1 V",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/bʌv/"
+    ]
+  },
+  {
+    "word": "abroad",
+    "cmu": "AH0 B R AO1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌbrɔd/"
+    ]
+  },
+  {
+    "word": "absent",
+    "cmu": "AE1 B S AH0 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/æbsʌnt/"
+    ]
+  },
+  {
+    "word": "accident",
+    "cmu": "AE1 K S AH0 D AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/æksʌ/",
+      "/dʌnt/"
+    ]
+  },
+  {
+    "word": "accidental",
+    "cmu": "AE2 K S AH0 D EH1 N T AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/æksʌ/",
+      "/dentʌl/"
+    ]
+  },
+  {
+    "word": "accountant",
+    "cmu": "AH0 K AW1 N T AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/kaʊntʌnt/"
+    ]
+  },
+  {
+    "word": "ache",
+    "cmu": "EY1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/eɪk/"
+    ]
+  },
+  {
+    "word": "achieve",
+    "cmu": "AH0 CH IY1 V",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/tʃiːv/"
+    ]
+  },
+  {
+    "word": "achievement",
+    "cmu": "AH0 CH IY1 V M AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/tʃiːvmʌnt/"
+    ]
+  },
+  {
+    "word": "across",
+    "cmu": "AH0 K R AO1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌkrɔs/"
+    ]
+  },
+  {
+    "word": "act",
+    "cmu": "AE1 K T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ækt/"
+    ]
+  },
+  {
+    "word": "action",
+    "cmu": "AE1 K SH AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/ækʃʌn/"
+    ]
+  },
+  {
+    "word": "active",
+    "cmu": "AE1 K T IH0 V",
+    "syllableCount": 1,
+    "sounds": [
+      "/æktɪv/"
+    ]
+  },
+  {
+    "word": "activity",
+    "cmu": "AE0 K T IH1 V AH0 T IY0",
+    "syllableCount": 3,
+    "sounds": [
+      "/æktɪ/",
+      "/vʌ/",
+      "/tiː/"
+    ]
+  },
+  {
+    "word": "actor",
+    "cmu": "AE1 K T ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/æktɝ/"
+    ]
+  },
+  {
+    "word": "actress",
+    "cmu": "AE1 K T R AH0 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/æktrʌs/"
+    ]
+  },
+  {
+    "word": "actually",
+    "cmu": "AE1 K CH UW2 AH0 L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/æktʃuːʌ/",
+      "/liː/"
+    ]
+  },
+  {
+    "word": "ad",
+    "cmu": "AE1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/æd/"
+    ]
+  },
+  {
+    "word": "add",
+    "cmu": "AE1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/æd/"
+    ]
+  },
+  {
+    "word": "address",
+    "cmu": "AE1 D R EH2 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/ædres/"
+    ]
+  },
+  {
+    "word": "admire",
+    "cmu": "AE0 D M AY1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/ædmaɪr/"
+    ]
+  },
+  {
+    "word": "adult",
+    "cmu": "AH0 D AH1 L T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/dʌlt/"
+    ]
+  },
+  {
+    "word": "advantage",
+    "cmu": "AE0 D V AE1 N T IH0 JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/ædvæntɪdʒ/"
+    ]
+  },
+  {
+    "word": "advertisement",
+    "cmu": "AE0 D V ER1 T AH0 Z M AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ædvɝ/",
+      "/tʌzmʌnt/"
+    ]
+  },
+  {
+    "word": "advice",
+    "cmu": "AE0 D V AY1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/ædvaɪs/"
+    ]
+  },
+  {
+    "word": "advise",
+    "cmu": "AE0 D V AY1 Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/ædvaɪz/"
+    ]
+  },
+  {
+    "word": "afford",
+    "cmu": "AH0 F AO1 R D",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/fɔrd/"
+    ]
+  },
+  {
+    "word": "afraid",
+    "cmu": "AH0 F R EY1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌfreɪd/"
+    ]
+  },
+  {
+    "word": "Africa",
+    "cmu": "AE1 F R AH0 K AA0",
+    "syllableCount": 2,
+    "sounds": [
+      "/æfrʌ/",
+      "/kɑ/"
+    ]
+  },
+  {
+    "word": "after",
+    "cmu": "AE1 F T ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/æftɝ/"
+    ]
+  },
+  {
+    "word": "afternoon",
+    "cmu": "AE2 F T ER0 N UW1 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/æftɝ/",
+      "/nuːn/"
+    ]
+  },
+  {
+    "word": "again",
+    "cmu": "AH0 G EH1 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/gen/"
+    ]
+  },
+  {
+    "word": "against",
+    "cmu": "AH0 G EH1 N S T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/genst/"
+    ]
+  },
+  {
+    "word": "age",
+    "cmu": "EY1 JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/eɪdʒ/"
+    ]
+  },
+  {
+    "word": "ago",
+    "cmu": "AH0 G OW1",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/goʊ/"
+    ]
+  },
+  {
+    "word": "agree",
+    "cmu": "AH0 G R IY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌgriː/"
+    ]
+  },
+  {
+    "word": "agreement",
+    "cmu": "AH0 G R IY1 M AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌgriː/",
+      "/mʌnt/"
+    ]
+  },
+  {
+    "word": "ahead",
+    "cmu": "AH0 HH EH1 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/hed/"
+    ]
+  },
+  {
+    "word": "air",
+    "cmu": "EH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/er/"
+    ]
+  },
+  {
+    "word": "airline",
+    "cmu": "EH1 R L AY2 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/erlaɪn/"
+    ]
+  },
+  {
+    "word": "airplane",
+    "cmu": "EH1 R P L EY2 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/erpleɪn/"
+    ]
+  },
+  {
+    "word": "airport",
+    "cmu": "EH1 R P AO2 R T",
+    "syllableCount": 1,
+    "sounds": [
+      "/erpɔrt/"
+    ]
+  },
+  {
+    "word": "Alabama",
+    "cmu": "AE2 L AH0 B AE1 M AH0",
+    "syllableCount": 4,
+    "sounds": [
+      "/æ/",
+      "/lʌ/",
+      "/bæ/",
+      "/mʌ/"
+    ]
+  },
+  {
+    "word": "alarm",
+    "cmu": "AH0 L AA1 R M",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/lɑrm/"
+    ]
+  },
+  {
+    "word": "Alex",
+    "cmu": "AE1 L AH0 K S",
+    "syllableCount": 2,
+    "sounds": [
+      "/æ/",
+      "/lʌks/"
+    ]
+  },
+  {
+    "word": "Alfred",
+    "cmu": "AE1 L F R AH0 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/ælfrʌd/"
+    ]
+  },
+  {
+    "word": "alien",
+    "cmu": "EY1 L IY0 AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/eɪ/",
+      "/liːʌn/"
+    ]
+  },
+  {
+    "word": "alike",
+    "cmu": "AH0 L AY1 K",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/laɪk/"
+    ]
+  },
+  {
+    "word": "alive",
+    "cmu": "AH0 L AY1 V",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/laɪv/"
+    ]
+  },
+  {
+    "word": "all",
+    "cmu": "AO1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔl/"
+    ]
+  },
+  {
+    "word": "Allen",
+    "cmu": "AE1 L AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/æ/",
+      "/lʌn/"
+    ]
+  },
+  {
+    "word": "allow",
+    "cmu": "AH0 L AW1",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/laʊ/"
+    ]
+  },
+  {
+    "word": "almost",
+    "cmu": "AO1 L M OW2 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔlmoʊst/"
+    ]
+  },
+  {
+    "word": "alone",
+    "cmu": "AH0 L OW1 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/loʊn/"
+    ]
+  },
+  {
+    "word": "along",
+    "cmu": "AH0 L AO1 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/lɔŋ/"
+    ]
+  },
+  {
+    "word": "aloud",
+    "cmu": "AH0 L AW1 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/laʊd/"
+    ]
+  },
+  {
+    "word": "already",
+    "cmu": "AO0 L R EH1 D IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɔlre/",
+      "/diː/"
+    ]
+  },
+  {
+    "word": "also",
+    "cmu": "AO1 L S OW0",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔlsoʊ/"
+    ]
+  },
+  {
+    "word": "although",
+    "cmu": "AO2 L DH OW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔlðoʊ/"
+    ]
+  },
+  {
+    "word": "always",
+    "cmu": "AO1 L W EY2 Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔlweɪz/"
+    ]
+  },
+  {
+    "word": "am",
+    "cmu": "AE1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/æm/"
+    ]
+  },
+  {
+    "word": "AM.",
+    "cmu": "AE1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/æm/"
+    ]
+  },
+  {
+    "word": "amaze",
+    "cmu": "AH0 M EY1 Z",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/meɪz/"
+    ]
+  },
+  {
+    "word": "amazing",
+    "cmu": "AH0 M EY1 Z IH0 NG",
+    "syllableCount": 3,
+    "sounds": [
+      "/ʌ/",
+      "/meɪ/",
+      "/zɪŋ/"
+    ]
+  },
+  {
+    "word": "America",
+    "cmu": "AH0 M EH1 R AH0 K AH0",
+    "syllableCount": 4,
+    "sounds": [
+      "/ʌ/",
+      "/me/",
+      "/rʌ/",
+      "/kʌ/"
+    ]
+  },
+  {
+    "word": "American",
+    "cmu": "AH0 M EH1 R AH0 K AH0 N",
+    "syllableCount": 4,
+    "sounds": [
+      "/ʌ/",
+      "/me/",
+      "/rʌ/",
+      "/kʌn/"
+    ]
+  },
+  {
+    "word": "among",
+    "cmu": "AH0 M AH1 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/mʌŋ/"
+    ]
+  },
+  {
+    "word": "Amusement",
+    "cmu": "AH0 M Y UW1 Z M AH0 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌmjuːzmʌnt/"
+    ]
+  },
+  {
+    "word": "amy",
+    "cmu": "EY1 M IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/eɪ/",
+      "/miː/"
+    ]
+  },
+  {
+    "word": "an",
+    "cmu": "AE1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/æn/"
+    ]
+  },
+  {
+    "word": "ancestor",
+    "cmu": "AE1 N S EH2 S T ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/ænsestɝ/"
+    ]
+  },
+  {
+    "word": "ancient",
+    "cmu": "EY1 N CH AH0 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/eɪntʃʌnt/"
+    ]
+  },
+  {
+    "word": "and",
+    "cmu": "AH0 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌnd/"
+    ]
+  },
+  {
+    "word": "angel",
+    "cmu": "EY1 N JH AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/eɪndʒʌl/"
+    ]
+  },
+  {
+    "word": "angry",
+    "cmu": "AE1 NG G R IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/æŋgriː/"
+    ]
+  },
+  {
+    "word": "animal",
+    "cmu": "AE1 N AH0 M AH0 L",
+    "syllableCount": 3,
+    "sounds": [
+      "/æ/",
+      "/nʌ/",
+      "/mʌl/"
+    ]
+  },
+  {
+    "word": "announce",
+    "cmu": "AH0 N AW1 N S",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/naʊns/"
+    ]
+  },
+  {
+    "word": "another",
+    "cmu": "AH0 N AH1 DH ER0",
+    "syllableCount": 3,
+    "sounds": [
+      "/ʌ/",
+      "/nʌ/",
+      "/ðɝ/"
+    ]
+  },
+  {
+    "word": "answer",
+    "cmu": "AE1 N S ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/ænsɝ/"
+    ]
+  },
+  {
+    "word": "ant",
+    "cmu": "AE1 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ænt/"
+    ]
+  },
+  {
+    "word": "any",
+    "cmu": "EH1 N IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/e/",
+      "/niː/"
+    ]
+  },
+  {
+    "word": "anybody",
+    "cmu": "EH1 N IY0 B AH0 D IY0",
+    "syllableCount": 4,
+    "sounds": [
+      "/e/",
+      "/niː/",
+      "/bʌ/",
+      "/diː/"
+    ]
+  },
+  {
+    "word": "anymore",
+    "cmu": "EH2 N IY0 M AO1 R",
+    "syllableCount": 3,
+    "sounds": [
+      "/e/",
+      "/niː/",
+      "/mɔr/"
+    ]
+  },
+  {
+    "word": "anyone",
+    "cmu": "EH1 N IY0 W AH2 N",
+    "syllableCount": 3,
+    "sounds": [
+      "/e/",
+      "/niː/",
+      "/wʌn/"
+    ]
+  },
+  {
+    "word": "anything",
+    "cmu": "EH1 N IY0 TH IH2 NG",
+    "syllableCount": 3,
+    "sounds": [
+      "/e/",
+      "/niː/",
+      "/θɪŋ/"
+    ]
+  },
+  {
+    "word": "anyway",
+    "cmu": "EH1 N IY0 W EY2",
+    "syllableCount": 3,
+    "sounds": [
+      "/e/",
+      "/niː/",
+      "/weɪ/"
+    ]
+  },
+  {
+    "word": "anywhere",
+    "cmu": "EH1 N IY0 W EH2 R",
+    "syllableCount": 3,
+    "sounds": [
+      "/e/",
+      "/niː/",
+      "/wer/"
+    ]
+  },
+  {
+    "word": "apart",
+    "cmu": "AH0 P AA1 R T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/pɑrt/"
+    ]
+  },
+  {
+    "word": "appear",
+    "cmu": "AH0 P IH1 R",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/pɪr/"
+    ]
+  },
+  {
+    "word": "apple",
+    "cmu": "AE1 P AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/æ/",
+      "/pʌl/"
+    ]
+  },
+  {
+    "word": "April",
+    "cmu": "EY1 P R AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/eɪprʌl/"
+    ]
+  },
+  {
+    "word": "are",
+    "cmu": "AA1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɑr/"
+    ]
+  },
+  {
+    "word": "area",
+    "cmu": "EH1 R IY0 AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/e/",
+      "/riː/",
+      "/ʌ/"
+    ]
+  },
+  {
+    "word": "aren't",
+    "cmu": "AA1 R AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɑ/",
+      "/rʌnt/"
+    ]
+  },
+  {
+    "word": "argue",
+    "cmu": "AA1 R G Y UW0",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɑrgjuː/"
+    ]
+  },
+  {
+    "word": "arm",
+    "cmu": "AA1 R M",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɑrm/"
+    ]
+  },
+  {
+    "word": "army",
+    "cmu": "AA1 R M IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɑrmiː/"
+    ]
+  },
+  {
+    "word": "around",
+    "cmu": "ER0 AW1 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɝaʊnd/"
+    ]
+  },
+  {
+    "word": "arrive",
+    "cmu": "ER0 AY1 V",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɝaɪv/"
+    ]
+  },
+  {
+    "word": "Art",
+    "cmu": "AA1 R T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɑrt/"
+    ]
+  },
+  {
+    "word": "article",
+    "cmu": "AA1 R T AH0 K AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɑrtʌ/",
+      "/kʌl/"
+    ]
+  },
+  {
+    "word": "artist",
+    "cmu": "AA1 R T AH0 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɑrtʌst/"
+    ]
+  },
+  {
+    "word": "as",
+    "cmu": "AE1 Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/æz/"
+    ]
+  },
+  {
+    "word": "Asia",
+    "cmu": "EY1 ZH AH0",
+    "syllableCount": 2,
+    "sounds": [
+      "/eɪ/",
+      "/ʒʌ/"
+    ]
+  },
+  {
+    "word": "Asian",
+    "cmu": "EY1 ZH AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/eɪ/",
+      "/ʒʌn/"
+    ]
+  },
+  {
+    "word": "ask",
+    "cmu": "AE1 S K",
+    "syllableCount": 1,
+    "sounds": [
+      "/æsk/"
+    ]
+  },
+  {
+    "word": "asleep",
+    "cmu": "AH0 S L IY1 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌsliːp/"
+    ]
+  },
+  {
+    "word": "assistant",
+    "cmu": "AH0 S IH1 S T AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/sɪstʌnt/"
+    ]
+  },
+  {
+    "word": "at",
+    "cmu": "AE1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/æt/"
+    ]
+  },
+  {
+    "word": "Atlantic",
+    "cmu": "AH0 T L AE1 N T IH0 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌtlæntɪk/"
+    ]
+  },
+  {
+    "word": "attack",
+    "cmu": "AH0 T AE1 K",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/tæk/"
+    ]
+  },
+  {
+    "word": "attend",
+    "cmu": "AH0 T EH1 N D",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/tend/"
+    ]
+  },
+  {
+    "word": "attention",
+    "cmu": "AH0 T EH1 N SH AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/tenʃʌn/"
+    ]
+  },
+  {
+    "word": "attract",
+    "cmu": "AH0 T R AE1 K T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ʌtrækt/"
+    ]
+  },
+  {
+    "word": "audience",
+    "cmu": "AA1 D IY0 AH0 N S",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɑ/",
+      "/diːʌns/"
+    ]
+  },
+  {
+    "word": "August",
+    "cmu": "AA1 G AH0 S T",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɑ/",
+      "/gʌst/"
+    ]
+  },
+  {
+    "word": "aunt",
+    "cmu": "AE1 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/ænt/"
+    ]
+  },
+  {
+    "word": "Australia",
+    "cmu": "AO0 S T R EY1 L Y AH0",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔstreɪljʌ/"
+    ]
+  },
+  {
+    "word": "Australian",
+    "cmu": "AO0 S T R EY1 L Y AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/ɔstreɪljʌn/"
+    ]
+  },
+  {
+    "word": "autumn",
+    "cmu": "AO1 T AH0 M",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɔ/",
+      "/tʌm/"
+    ]
+  },
+  {
+    "word": "available",
+    "cmu": "AH0 V EY1 L AH0 B AH0 L",
+    "syllableCount": 4,
+    "sounds": [
+      "/ʌ/",
+      "/veɪ/",
+      "/lʌ/",
+      "/bʌl/"
+    ]
+  },
+  {
+    "word": "avoid",
+    "cmu": "AH0 V OY1 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/vɔɪd/"
+    ]
+  },
+  {
+    "word": "awake",
+    "cmu": "AH0 W EY1 K",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/weɪk/"
+    ]
+  },
+  {
+    "word": "away",
+    "cmu": "AH0 W EY1",
+    "syllableCount": 2,
+    "sounds": [
+      "/ʌ/",
+      "/weɪ/"
+    ]
+  },
+  {
+    "word": "awful",
+    "cmu": "AA1 F AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/ɑ/",
+      "/fʌl/"
+    ]
+  },
+  {
+    "word": "baby",
+    "cmu": "B EY1 B IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/beɪ/",
+      "/biː/"
+    ]
+  },
+  {
+    "word": "back",
+    "cmu": "B AE1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæk/"
+    ]
+  },
+  {
+    "word": "background",
+    "cmu": "B AE1 K G R AW2 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bækgraʊnd/"
+    ]
+  },
+  {
+    "word": "backpack",
+    "cmu": "B AE1 K P AE2 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/bækpæk/"
+    ]
+  },
+  {
+    "word": "bad",
+    "cmu": "B AE1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæd/"
+    ]
+  },
+  {
+    "word": "badly",
+    "cmu": "B AE1 D L IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/bædliː/"
+    ]
+  },
+  {
+    "word": "badminton",
+    "cmu": "B AE1 D M IH2 N T AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bædmɪntʌn/"
+    ]
+  },
+  {
+    "word": "bag",
+    "cmu": "B AE1 G",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæg/"
+    ]
+  },
+  {
+    "word": "baker",
+    "cmu": "B EY1 K ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/beɪ/",
+      "/kɝ/"
+    ]
+  },
+  {
+    "word": "ball",
+    "cmu": "B AO1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔl/"
+    ]
+  },
+  {
+    "word": "balloon",
+    "cmu": "B AH0 L UW1 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/bʌ/",
+      "/luːn/"
+    ]
+  },
+  {
+    "word": "bamboo",
+    "cmu": "B AE0 M B UW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæmbuː/"
+    ]
+  },
+  {
+    "word": "banana",
+    "cmu": "B AH0 N AE1 N AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/bʌ/",
+      "/næ/",
+      "/nʌ/"
+    ]
+  },
+  {
+    "word": "band",
+    "cmu": "B AE1 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bænd/"
+    ]
+  },
+  {
+    "word": "bandage",
+    "cmu": "B AE1 N D IH0 JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/bændɪdʒ/"
+    ]
+  },
+  {
+    "word": "bang",
+    "cmu": "B AE1 NG",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæŋ/"
+    ]
+  },
+  {
+    "word": "bank",
+    "cmu": "B AE1 NG K",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæŋk/"
+    ]
+  },
+  {
+    "word": "banker",
+    "cmu": "B AE1 NG K ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæŋkɝ/"
+    ]
+  },
+  {
+    "word": "barn",
+    "cmu": "B AA1 R N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɑrn/"
+    ]
+  },
+  {
+    "word": "base",
+    "cmu": "B EY1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/beɪs/"
+    ]
+  },
+  {
+    "word": "baseball",
+    "cmu": "B EY1 S B AO1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/beɪsbɔl/"
+    ]
+  },
+  {
+    "word": "BASIC",
+    "cmu": "B EY1 S IH0 K",
+    "syllableCount": 2,
+    "sounds": [
+      "/beɪ/",
+      "/sɪk/"
+    ]
+  },
+  {
+    "word": "basin",
+    "cmu": "B EY1 S AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/beɪ/",
+      "/sʌn/"
+    ]
+  },
+  {
+    "word": "basket",
+    "cmu": "B AE1 S K AH0 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæskʌt/"
+    ]
+  },
+  {
+    "word": "basketball",
+    "cmu": "B AE1 S K AH0 T B AO2 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæskʌtbɔl/"
+    ]
+  },
+  {
+    "word": "bat",
+    "cmu": "B AE1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæt/"
+    ]
+  },
+  {
+    "word": "bathroom",
+    "cmu": "B AE1 TH R UW2 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/bæθruːm/"
+    ]
+  },
+  {
+    "word": "be",
+    "cmu": "B IY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/biː/"
+    ]
+  },
+  {
+    "word": "beach",
+    "cmu": "B IY1 CH",
+    "syllableCount": 1,
+    "sounds": [
+      "/biːtʃ/"
+    ]
+  },
+  {
+    "word": "bean",
+    "cmu": "B IY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/biːn/"
+    ]
+  },
+  {
+    "word": "bear",
+    "cmu": "B EH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/ber/"
+    ]
+  },
+  {
+    "word": "beat",
+    "cmu": "B IY1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/biːt/"
+    ]
+  },
+  {
+    "word": "beautiful",
+    "cmu": "B Y UW1 T AH0 F AH0 L",
+    "syllableCount": 3,
+    "sounds": [
+      "/bjuː/",
+      "/tʌ/",
+      "/fʌl/"
+    ]
+  },
+  {
+    "word": "beautifully",
+    "cmu": "B Y UW1 T AH0 F L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bjuː/",
+      "/tʌfliː/"
+    ]
+  },
+  {
+    "word": "beauty",
+    "cmu": "B Y UW1 T IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bjuː/",
+      "/tiː/"
+    ]
+  },
+  {
+    "word": "because",
+    "cmu": "B IH0 K AO1 Z",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/kɔz/"
+    ]
+  },
+  {
+    "word": "become",
+    "cmu": "B IH0 K AH1 M",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/kʌm/"
+    ]
+  },
+  {
+    "word": "bed",
+    "cmu": "B EH1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bed/"
+    ]
+  },
+  {
+    "word": "bedroom",
+    "cmu": "B EH1 D R UW2 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/bedruːm/"
+    ]
+  },
+  {
+    "word": "bedtime",
+    "cmu": "B EH1 D T AY2 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/bedtaɪm/"
+    ]
+  },
+  {
+    "word": "bee",
+    "cmu": "B IY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/biː/"
+    ]
+  },
+  {
+    "word": "beef",
+    "cmu": "B IY1 F",
+    "syllableCount": 1,
+    "sounds": [
+      "/biːf/"
+    ]
+  },
+  {
+    "word": "beeper",
+    "cmu": "B IY1 P ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/biː/",
+      "/pɝ/"
+    ]
+  },
+  {
+    "word": "beer",
+    "cmu": "B IH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪr/"
+    ]
+  },
+  {
+    "word": "before",
+    "cmu": "B IH0 F AO1 R",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/fɔr/"
+    ]
+  },
+  {
+    "word": "beg",
+    "cmu": "B EH1 G",
+    "syllableCount": 1,
+    "sounds": [
+      "/beg/"
+    ]
+  },
+  {
+    "word": "begin",
+    "cmu": "B IH0 G IH1 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/gɪn/"
+    ]
+  },
+  {
+    "word": "beginning",
+    "cmu": "B IH0 G IH1 N IH0 NG",
+    "syllableCount": 3,
+    "sounds": [
+      "/bɪ/",
+      "/gɪ/",
+      "/nɪŋ/"
+    ]
+  },
+  {
+    "word": "behave",
+    "cmu": "B IH0 HH EY1 V",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/heɪv/"
+    ]
+  },
+  {
+    "word": "behaviour",
+    "cmu": "B IH0 HH EY1 V Y ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/heɪvjɝ/"
+    ]
+  },
+  {
+    "word": "behind",
+    "cmu": "B IH0 HH AY1 N D",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/haɪnd/"
+    ]
+  },
+  {
+    "word": "believable",
+    "cmu": "B AH0 L IY1 V AH0 B AH0 L",
+    "syllableCount": 4,
+    "sounds": [
+      "/bʌ/",
+      "/liː/",
+      "/vʌ/",
+      "/bʌl/"
+    ]
+  },
+  {
+    "word": "believe",
+    "cmu": "B IH0 L IY1 V",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/liːv/"
+    ]
+  },
+  {
+    "word": "bell",
+    "cmu": "B EH1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/bel/"
+    ]
+  },
+  {
+    "word": "bellow",
+    "cmu": "B EH1 L OW0",
+    "syllableCount": 2,
+    "sounds": [
+      "/be/",
+      "/loʊ/"
+    ]
+  },
+  {
+    "word": "belong",
+    "cmu": "B IH0 L AO1 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/lɔŋ/"
+    ]
+  },
+  {
+    "word": "below",
+    "cmu": "B IH0 L OW1",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/loʊ/"
+    ]
+  },
+  {
+    "word": "Berlin",
+    "cmu": "B ER0 L IH1 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɝ/",
+      "/lɪn/"
+    ]
+  },
+  {
+    "word": "Bert",
+    "cmu": "B ER1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɝt/"
+    ]
+  },
+  {
+    "word": "beside",
+    "cmu": "B IH0 S AY1 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/saɪd/"
+    ]
+  },
+  {
+    "word": "besides",
+    "cmu": "B IH0 S AY1 D Z",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/saɪdz/"
+    ]
+  },
+  {
+    "word": "best",
+    "cmu": "B EH1 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/best/"
+    ]
+  },
+  {
+    "word": "better",
+    "cmu": "B EH1 T ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/be/",
+      "/tɝ/"
+    ]
+  },
+  {
+    "word": "between",
+    "cmu": "B IH0 T W IY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪtwiːn/"
+    ]
+  },
+  {
+    "word": "between .",
+    "cmu": "B IH0 T W IY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪtwiːn/"
+    ]
+  },
+  {
+    "word": "beyond",
+    "cmu": "B IH0 AA1 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪɑnd/"
+    ]
+  },
+  {
+    "word": "bicycle",
+    "cmu": "B AY1 S IH0 K AH0 L",
+    "syllableCount": 3,
+    "sounds": [
+      "/baɪ/",
+      "/sɪ/",
+      "/kʌl/"
+    ]
+  },
+  {
+    "word": "big",
+    "cmu": "B IH1 G",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪg/"
+    ]
+  },
+  {
+    "word": "bigger",
+    "cmu": "B IH1 G ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/gɝ/"
+    ]
+  },
+  {
+    "word": "bike",
+    "cmu": "B AY1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/baɪk/"
+    ]
+  },
+  {
+    "word": "bill",
+    "cmu": "B IH1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪl/"
+    ]
+  },
+  {
+    "word": "billion",
+    "cmu": "B IH1 L Y AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪljʌn/"
+    ]
+  },
+  {
+    "word": "Billy",
+    "cmu": "B IH1 L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/liː/"
+    ]
+  },
+  {
+    "word": "bin",
+    "cmu": "B IH1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪn/"
+    ]
+  },
+  {
+    "word": "biology",
+    "cmu": "B AY0 AA1 L AH0 JH IY0",
+    "syllableCount": 3,
+    "sounds": [
+      "/baɪɑ/",
+      "/lʌ/",
+      "/dʒiː/"
+    ]
+  },
+  {
+    "word": "bird",
+    "cmu": "B ER1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɝd/"
+    ]
+  },
+  {
+    "word": "birth",
+    "cmu": "B ER1 TH",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɝθ/"
+    ]
+  },
+  {
+    "word": "birthday",
+    "cmu": "B ER1 TH D EY2",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɝθdeɪ/"
+    ]
+  },
+  {
+    "word": "biscuit",
+    "cmu": "B IH1 S K AH0 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪskʌt/"
+    ]
+  },
+  {
+    "word": "bit",
+    "cmu": "B IH1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪt/"
+    ]
+  },
+  {
+    "word": "bitter",
+    "cmu": "B IH1 T ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/tɝ/"
+    ]
+  },
+  {
+    "word": "black",
+    "cmu": "B L AE1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/blæk/"
+    ]
+  },
+  {
+    "word": "blackboard",
+    "cmu": "B L AE1 K B AO2 R D",
+    "syllableCount": 1,
+    "sounds": [
+      "/blækbɔrd/"
+    ]
+  },
+  {
+    "word": "blind",
+    "cmu": "B L AY1 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/blaɪnd/"
+    ]
+  },
+  {
+    "word": "block",
+    "cmu": "B L AA1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/blɑk/"
+    ]
+  },
+  {
+    "word": "blood",
+    "cmu": "B L AH1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/blʌd/"
+    ]
+  },
+  {
+    "word": "blouse",
+    "cmu": "B L AW1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/blaʊs/"
+    ]
+  },
+  {
+    "word": "blow",
+    "cmu": "B L OW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/bloʊ/"
+    ]
+  },
+  {
+    "word": "blue",
+    "cmu": "B L UW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/bluː/"
+    ]
+  },
+  {
+    "word": "board",
+    "cmu": "B AO1 R D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔrd/"
+    ]
+  },
+  {
+    "word": "boarding",
+    "cmu": "B AO1 R D IH0 NG",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔrdɪŋ/"
+    ]
+  },
+  {
+    "word": "boat",
+    "cmu": "B OW1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/boʊt/"
+    ]
+  },
+  {
+    "word": "boating",
+    "cmu": "B OW1 T IH0 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/boʊ/",
+      "/tɪŋ/"
+    ]
+  },
+  {
+    "word": "body",
+    "cmu": "B AA1 D IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɑ/",
+      "/diː/"
+    ]
+  },
+  {
+    "word": "boil",
+    "cmu": "B OY1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔɪl/"
+    ]
+  },
+  {
+    "word": "book",
+    "cmu": "B UH1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʊk/"
+    ]
+  },
+  {
+    "word": "bookcase",
+    "cmu": "B UH1 K K EY2 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʊkkeɪs/"
+    ]
+  },
+  {
+    "word": "bookmark",
+    "cmu": "B UH1 K M AA0 R K",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʊkmɑrk/"
+    ]
+  },
+  {
+    "word": "bookshop",
+    "cmu": "B UH1 K SH AA2 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʊkʃɑp/"
+    ]
+  },
+  {
+    "word": "bookstore",
+    "cmu": "B UH1 K S T AO2 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʊkstɔr/"
+    ]
+  },
+  {
+    "word": "boot",
+    "cmu": "B UW1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/buːt/"
+    ]
+  },
+  {
+    "word": "bored",
+    "cmu": "B AO1 R D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔrd/"
+    ]
+  },
+  {
+    "word": "boring",
+    "cmu": "B AO1 R IH0 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɔ/",
+      "/rɪŋ/"
+    ]
+  },
+  {
+    "word": "born",
+    "cmu": "B AO1 R N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔrn/"
+    ]
+  },
+  {
+    "word": "borrow",
+    "cmu": "B AA1 R OW2",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɑ/",
+      "/roʊ/"
+    ]
+  },
+  {
+    "word": "boss",
+    "cmu": "B AA1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɑs/"
+    ]
+  },
+  {
+    "word": "Boston",
+    "cmu": "B AA1 S T AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɑstʌn/"
+    ]
+  },
+  {
+    "word": "both",
+    "cmu": "B OW1 TH",
+    "syllableCount": 1,
+    "sounds": [
+      "/boʊθ/"
+    ]
+  },
+  {
+    "word": "bottle",
+    "cmu": "B AA1 T AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɑ/",
+      "/tʌl/"
+    ]
+  },
+  {
+    "word": "bottom",
+    "cmu": "B AA1 T AH0 M",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɑ/",
+      "/tʌm/"
+    ]
+  },
+  {
+    "word": "bow",
+    "cmu": "B AW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/baʊ/"
+    ]
+  },
+  {
+    "word": "bowl",
+    "cmu": "B OW1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/boʊl/"
+    ]
+  },
+  {
+    "word": "box",
+    "cmu": "B AA1 K S",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɑks/"
+    ]
+  },
+  {
+    "word": "boy",
+    "cmu": "B OY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɔɪ/"
+    ]
+  },
+  {
+    "word": "brain",
+    "cmu": "B R EY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/breɪn/"
+    ]
+  },
+  {
+    "word": "brand",
+    "cmu": "B R AE1 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/brænd/"
+    ]
+  },
+  {
+    "word": "brave",
+    "cmu": "B R EY1 V",
+    "syllableCount": 1,
+    "sounds": [
+      "/breɪv/"
+    ]
+  },
+  {
+    "word": "Brazil",
+    "cmu": "B R AH0 Z IH1 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/brʌ/",
+      "/zɪl/"
+    ]
+  },
+  {
+    "word": "bread",
+    "cmu": "B R EH1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bred/"
+    ]
+  },
+  {
+    "word": "break",
+    "cmu": "B R EY1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/breɪk/"
+    ]
+  },
+  {
+    "word": "breakfast",
+    "cmu": "B R EH1 K F AH0 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/brekfʌst/"
+    ]
+  },
+  {
+    "word": "breath",
+    "cmu": "B R EH1 TH",
+    "syllableCount": 1,
+    "sounds": [
+      "/breθ/"
+    ]
+  },
+  {
+    "word": "breathe",
+    "cmu": "B R IY1 DH",
+    "syllableCount": 1,
+    "sounds": [
+      "/briːð/"
+    ]
+  },
+  {
+    "word": "Brian",
+    "cmu": "B R AY1 AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/braɪʌn/"
+    ]
+  },
+  {
+    "word": "bridge",
+    "cmu": "B R IH1 JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/brɪdʒ/"
+    ]
+  },
+  {
+    "word": "bright",
+    "cmu": "B R AY1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/braɪt/"
+    ]
+  },
+  {
+    "word": "brightly",
+    "cmu": "B R AY1 T L IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/braɪtliː/"
+    ]
+  },
+  {
+    "word": "bring",
+    "cmu": "B R IH1 NG",
+    "syllableCount": 1,
+    "sounds": [
+      "/brɪŋ/"
+    ]
+  },
+  {
+    "word": "Britain",
+    "cmu": "B R IH1 T AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/brɪ/",
+      "/tʌn/"
+    ]
+  },
+  {
+    "word": "British",
+    "cmu": "B R IH1 T IH0 SH",
+    "syllableCount": 2,
+    "sounds": [
+      "/brɪ/",
+      "/tɪʃ/"
+    ]
+  },
+  {
+    "word": "brochure",
+    "cmu": "B R OW0 SH UH1 R",
+    "syllableCount": 2,
+    "sounds": [
+      "/broʊ/",
+      "/ʃʊr/"
+    ]
+  },
+  {
+    "word": "broke",
+    "cmu": "B R OW1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/broʊk/"
+    ]
+  },
+  {
+    "word": "broken",
+    "cmu": "B R OW1 K AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/broʊ/",
+      "/kʌn/"
+    ]
+  },
+  {
+    "word": "broom",
+    "cmu": "B R UW1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/bruːm/"
+    ]
+  },
+  {
+    "word": "brother",
+    "cmu": "B R AH1 DH ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/brʌ/",
+      "/ðɝ/"
+    ]
+  },
+  {
+    "word": "brown",
+    "cmu": "B R AW1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/braʊn/"
+    ]
+  },
+  {
+    "word": "brush",
+    "cmu": "B R AH1 SH",
+    "syllableCount": 1,
+    "sounds": [
+      "/brʌʃ/"
+    ]
+  },
+  {
+    "word": "build",
+    "cmu": "B IH1 L D",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪld/"
+    ]
+  },
+  {
+    "word": "building",
+    "cmu": "B IH1 L D IH0 NG",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪldɪŋ/"
+    ]
+  },
+  {
+    "word": "bullet",
+    "cmu": "B UH1 L AH0 T",
+    "syllableCount": 2,
+    "sounds": [
+      "/bʊ/",
+      "/lʌt/"
+    ]
+  },
+  {
+    "word": "burger",
+    "cmu": "B ER1 G ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɝ/",
+      "/gɝ/"
+    ]
+  },
+  {
+    "word": "burial",
+    "cmu": "B EH1 R IY0 AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/be/",
+      "/riːʌl/"
+    ]
+  },
+  {
+    "word": "burn",
+    "cmu": "B ER1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɝn/"
+    ]
+  },
+  {
+    "word": "burning",
+    "cmu": "B ER1 N IH0 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɝ/",
+      "/nɪŋ/"
+    ]
+  },
+  {
+    "word": "bus",
+    "cmu": "B AH1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʌs/"
+    ]
+  },
+  {
+    "word": "business",
+    "cmu": "B IH1 Z N AH0 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪznʌs/"
+    ]
+  },
+  {
+    "word": "businessman",
+    "cmu": "B IH1 Z N AH0 S M AE2 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/bɪznʌsmæn/"
+    ]
+  },
+  {
+    "word": "busy",
+    "cmu": "B IH1 Z IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bɪ/",
+      "/ziː/"
+    ]
+  },
+  {
+    "word": "but",
+    "cmu": "B AH1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/bʌt/"
+    ]
+  },
+  {
+    "word": "butter",
+    "cmu": "B AH1 T ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/bʌ/",
+      "/tɝ/"
+    ]
+  },
+  {
+    "word": "butterfly",
+    "cmu": "B AH1 T ER0 F L AY2",
+    "syllableCount": 2,
+    "sounds": [
+      "/bʌ/",
+      "/tɝflaɪ/"
+    ]
+  },
+  {
+    "word": "button",
+    "cmu": "B AH1 T AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/bʌ/",
+      "/tʌn/"
+    ]
+  },
+  {
+    "word": "buy",
+    "cmu": "B AY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/baɪ/"
+    ]
+  },
+  {
+    "word": "by",
+    "cmu": "B AY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/baɪ/"
+    ]
+  },
+  {
+    "word": "bye",
+    "cmu": "B AY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/baɪ/"
+    ]
+  },
+  {
+    "word": "cabbage",
+    "cmu": "K AE1 B AH0 JH",
+    "syllableCount": 2,
+    "sounds": [
+      "/kæ/",
+      "/bʌdʒ/"
+    ]
+  },
+  {
+    "word": "cafe",
+    "cmu": "K AH0 F EY1",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/feɪ/"
+    ]
+  },
+  {
+    "word": "cage",
+    "cmu": "K EY1 JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/keɪdʒ/"
+    ]
+  },
+  {
+    "word": "cake",
+    "cmu": "K EY1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/keɪk/"
+    ]
+  },
+  {
+    "word": "Cali",
+    "cmu": "K AA1 L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/liː/"
+    ]
+  },
+  {
+    "word": "call",
+    "cmu": "K AO1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɔl/"
+    ]
+  },
+  {
+    "word": "camel",
+    "cmu": "K AE1 M AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/kæ/",
+      "/mʌl/"
+    ]
+  },
+  {
+    "word": "camera",
+    "cmu": "K AE1 M ER0 AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/kæ/",
+      "/mɝ/",
+      "/ʌ/"
+    ]
+  },
+  {
+    "word": "camp",
+    "cmu": "K AE1 M P",
+    "syllableCount": 1,
+    "sounds": [
+      "/kæmp/"
+    ]
+  },
+  {
+    "word": "can",
+    "cmu": "K AE1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kæn/"
+    ]
+  },
+  {
+    "word": "can't",
+    "cmu": "K AE1 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kænt/"
+    ]
+  },
+  {
+    "word": "Canada",
+    "cmu": "K AE1 N AH0 D AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/kæ/",
+      "/nʌ/",
+      "/dʌ/"
+    ]
+  },
+  {
+    "word": "Canadian",
+    "cmu": "K AH0 N EY1 D IY0 AH0 N",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌ/",
+      "/neɪ/",
+      "/diːʌn/"
+    ]
+  },
+  {
+    "word": "cancel",
+    "cmu": "K AE1 N S AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kænsʌl/"
+    ]
+  },
+  {
+    "word": "cancer",
+    "cmu": "K AE1 N S ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kænsɝ/"
+    ]
+  },
+  {
+    "word": "candle",
+    "cmu": "K AE1 N D AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kændʌl/"
+    ]
+  },
+  {
+    "word": "Candy",
+    "cmu": "K AE1 N D IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kændiː/"
+    ]
+  },
+  {
+    "word": "cannibal",
+    "cmu": "K AE1 N AH0 B AH0 L",
+    "syllableCount": 3,
+    "sounds": [
+      "/kæ/",
+      "/nʌ/",
+      "/bʌl/"
+    ]
+  },
+  {
+    "word": "canoe",
+    "cmu": "K AH0 N UW1",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/nuː/"
+    ]
+  },
+  {
+    "word": "Canon",
+    "cmu": "K AE1 N AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/kæ/",
+      "/nʌn/"
+    ]
+  },
+  {
+    "word": "cap",
+    "cmu": "K AE1 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/kæp/"
+    ]
+  },
+  {
+    "word": "capital",
+    "cmu": "K AE1 P AH0 T AH0 L",
+    "syllableCount": 3,
+    "sounds": [
+      "/kæ/",
+      "/pʌ/",
+      "/tʌl/"
+    ]
+  },
+  {
+    "word": "captain",
+    "cmu": "K AE1 P T AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kæptʌn/"
+    ]
+  },
+  {
+    "word": "car",
+    "cmu": "K AA1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑr/"
+    ]
+  },
+  {
+    "word": "card",
+    "cmu": "K AA1 R D",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑrd/"
+    ]
+  },
+  {
+    "word": "care",
+    "cmu": "K EH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/ker/"
+    ]
+  },
+  {
+    "word": "careful",
+    "cmu": "K EH1 R F AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kerfʌl/"
+    ]
+  },
+  {
+    "word": "carefully",
+    "cmu": "K EH1 R F AH0 L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kerfʌ/",
+      "/liː/"
+    ]
+  },
+  {
+    "word": "careless",
+    "cmu": "K EH1 R L AH0 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/kerlʌs/"
+    ]
+  },
+  {
+    "word": "caring",
+    "cmu": "K EH1 R IH0 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/ke/",
+      "/rɪŋ/"
+    ]
+  },
+  {
+    "word": "Carl",
+    "cmu": "K AA1 R L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑrl/"
+    ]
+  },
+  {
+    "word": "Carla",
+    "cmu": "K AA1 R L AA0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑrlɑ/"
+    ]
+  },
+  {
+    "word": "Carmen",
+    "cmu": "K AA1 R M AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑrmʌn/"
+    ]
+  },
+  {
+    "word": "carrot",
+    "cmu": "K AE1 R AH0 T",
+    "syllableCount": 2,
+    "sounds": [
+      "/kæ/",
+      "/rʌt/"
+    ]
+  },
+  {
+    "word": "carry",
+    "cmu": "K AE1 R IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kæ/",
+      "/riː/"
+    ]
+  },
+  {
+    "word": "cartoon",
+    "cmu": "K AA0 R T UW1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑrtuːn/"
+    ]
+  },
+  {
+    "word": "cat",
+    "cmu": "K AE1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kæt/"
+    ]
+  },
+  {
+    "word": "catch",
+    "cmu": "K AE1 CH",
+    "syllableCount": 1,
+    "sounds": [
+      "/kætʃ/"
+    ]
+  },
+  {
+    "word": "cause",
+    "cmu": "K AA1 Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑz/"
+    ]
+  },
+  {
+    "word": "ceiling",
+    "cmu": "S IY1 L IH0 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/siː/",
+      "/lɪŋ/"
+    ]
+  },
+  {
+    "word": "celebrate",
+    "cmu": "S EH1 L AH0 B R EY2 T",
+    "syllableCount": 2,
+    "sounds": [
+      "/se/",
+      "/lʌbreɪt/"
+    ]
+  },
+  {
+    "word": "celebration",
+    "cmu": "S EH2 L AH0 B R EY1 SH AH0 N",
+    "syllableCount": 3,
+    "sounds": [
+      "/se/",
+      "/lʌbreɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "cent",
+    "cmu": "S EH1 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/sent/"
+    ]
+  },
+  {
+    "word": "center",
+    "cmu": "S EH1 N T ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/sentɝ/"
+    ]
+  },
+  {
+    "word": "central",
+    "cmu": "S EH1 N T R AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/sentrʌl/"
+    ]
+  },
+  {
+    "word": "century",
+    "cmu": "S EH1 N CH ER0 IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/sentʃɝ/",
+      "/iː/"
+    ]
+  },
+  {
+    "word": "ceremony",
+    "cmu": "S EH1 R AH0 M OW2 N IY0",
+    "syllableCount": 4,
+    "sounds": [
+      "/se/",
+      "/rʌ/",
+      "/moʊ/",
+      "/niː/"
+    ]
+  },
+  {
+    "word": "certain",
+    "cmu": "S ER1 T AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/sɝ/",
+      "/tʌn/"
+    ]
+  },
+  {
+    "word": "certainly",
+    "cmu": "S ER1 T AH0 N L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/sɝ/",
+      "/tʌnliː/"
+    ]
+  },
+  {
+    "word": "chain",
+    "cmu": "CH EY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃeɪn/"
+    ]
+  },
+  {
+    "word": "chair",
+    "cmu": "CH EH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃer/"
+    ]
+  },
+  {
+    "word": "chairman",
+    "cmu": "CH EH1 R M AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃermʌn/"
+    ]
+  },
+  {
+    "word": "chairwoman",
+    "cmu": "CH EH1 R W UH2 M AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/tʃerwʊ/",
+      "/mʌn/"
+    ]
+  },
+  {
+    "word": "chalk",
+    "cmu": "CH AA1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɑk/"
+    ]
+  },
+  {
+    "word": "challenge",
+    "cmu": "CH AE1 L AH0 N JH",
+    "syllableCount": 2,
+    "sounds": [
+      "/tʃæ/",
+      "/lʌndʒ/"
+    ]
+  },
+  {
+    "word": "chance",
+    "cmu": "CH AE1 N S",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃæns/"
+    ]
+  },
+  {
+    "word": "change",
+    "cmu": "CH EY1 N JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃeɪndʒ/"
+    ]
+  },
+  {
+    "word": "channel",
+    "cmu": "CH AE1 N AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/tʃæ/",
+      "/nʌl/"
+    ]
+  },
+  {
+    "word": "character",
+    "cmu": "K EH1 R IH0 K T ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/ke/",
+      "/rɪktɝ/"
+    ]
+  },
+  {
+    "word": "Charles",
+    "cmu": "CH AA1 R L Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɑrlz/"
+    ]
+  },
+  {
+    "word": "chart",
+    "cmu": "CH AA1 R T",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɑrt/"
+    ]
+  },
+  {
+    "word": "cheap",
+    "cmu": "CH IY1 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃiːp/"
+    ]
+  },
+  {
+    "word": "cheaply",
+    "cmu": "CH IY1 P L IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃiːpliː/"
+    ]
+  },
+  {
+    "word": "cheat",
+    "cmu": "CH IY1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃiːt/"
+    ]
+  },
+  {
+    "word": "check",
+    "cmu": "CH EH1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃek/"
+    ]
+  },
+  {
+    "word": "cheer",
+    "cmu": "CH IH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɪr/"
+    ]
+  },
+  {
+    "word": "cheese",
+    "cmu": "CH IY1 Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃiːz/"
+    ]
+  },
+  {
+    "word": "chemistry",
+    "cmu": "K EH1 M AH0 S T R IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/ke/",
+      "/mʌstriː/"
+    ]
+  },
+  {
+    "word": "chess",
+    "cmu": "CH EH1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃes/"
+    ]
+  },
+  {
+    "word": "chest",
+    "cmu": "CH EH1 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃest/"
+    ]
+  },
+  {
+    "word": "chicken",
+    "cmu": "CH IH1 K AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/tʃɪ/",
+      "/kʌn/"
+    ]
+  },
+  {
+    "word": "child",
+    "cmu": "CH AY1 L D",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃaɪld/"
+    ]
+  },
+  {
+    "word": "childhood",
+    "cmu": "CH AY1 L D HH UH2 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃaɪldhʊd/"
+    ]
+  },
+  {
+    "word": "children",
+    "cmu": "CH IH1 L D R AH0 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɪldrʌn/"
+    ]
+  },
+  {
+    "word": "chimney",
+    "cmu": "CH IH1 M N IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɪmniː/"
+    ]
+  },
+  {
+    "word": "China",
+    "cmu": "CH AY1 N AH0",
+    "syllableCount": 2,
+    "sounds": [
+      "/tʃaɪ/",
+      "/nʌ/"
+    ]
+  },
+  {
+    "word": "Chinese",
+    "cmu": "CH AY0 N IY1 Z",
+    "syllableCount": 2,
+    "sounds": [
+      "/tʃaɪ/",
+      "/niːz/"
+    ]
+  },
+  {
+    "word": "chips",
+    "cmu": "CH IH1 P S",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɪps/"
+    ]
+  },
+  {
+    "word": "chocolate",
+    "cmu": "CH AO1 K L AH0 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɔklʌt/"
+    ]
+  },
+  {
+    "word": "choice",
+    "cmu": "CH OY1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɔɪs/"
+    ]
+  },
+  {
+    "word": "choose",
+    "cmu": "CH UW1 Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃuːz/"
+    ]
+  },
+  {
+    "word": "chopsticks",
+    "cmu": "CH AA1 P S T IH2 K S",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɑpstɪks/"
+    ]
+  },
+  {
+    "word": "chore",
+    "cmu": "CH AO1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɔr/"
+    ]
+  },
+  {
+    "word": "Christmas",
+    "cmu": "K R IH1 S M AH0 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/krɪsmʌs/"
+    ]
+  },
+  {
+    "word": "church",
+    "cmu": "CH ER1 CH",
+    "syllableCount": 1,
+    "sounds": [
+      "/tʃɝtʃ/"
+    ]
+  },
+  {
+    "word": "Cinderella",
+    "cmu": "S IH2 N D ER0 EH1 L AH0",
+    "syllableCount": 2,
+    "sounds": [
+      "/sɪndɝe/",
+      "/lʌ/"
+    ]
+  },
+  {
+    "word": "cinema",
+    "cmu": "S IH1 N AH0 M AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/sɪ/",
+      "/nʌ/",
+      "/mʌ/"
+    ]
+  },
+  {
+    "word": "circle",
+    "cmu": "S ER1 K AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/sɝ/",
+      "/kʌl/"
+    ]
+  },
+  {
+    "word": "city",
+    "cmu": "S IH1 T IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/sɪ/",
+      "/tiː/"
+    ]
+  },
+  {
+    "word": "clap",
+    "cmu": "K L AE1 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/klæp/"
+    ]
+  },
+  {
+    "word": "Clara",
+    "cmu": "K L AE1 R AH0",
+    "syllableCount": 2,
+    "sounds": [
+      "/klæ/",
+      "/rʌ/"
+    ]
+  },
+  {
+    "word": "class",
+    "cmu": "K L AE1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/klæs/"
+    ]
+  },
+  {
+    "word": "classic",
+    "cmu": "K L AE1 S IH0 K",
+    "syllableCount": 2,
+    "sounds": [
+      "/klæ/",
+      "/sɪk/"
+    ]
+  },
+  {
+    "word": "classmate",
+    "cmu": "K L AE1 S M EY2 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/klæsmeɪt/"
+    ]
+  },
+  {
+    "word": "classroom",
+    "cmu": "K L AE1 S R UW2 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/klæsruːm/"
+    ]
+  },
+  {
+    "word": "Claudia",
+    "cmu": "K L AO1 D IY0 AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/klɔ/",
+      "/diː/",
+      "/ʌ/"
+    ]
+  },
+  {
+    "word": "clay",
+    "cmu": "K L EY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/kleɪ/"
+    ]
+  },
+  {
+    "word": "clean",
+    "cmu": "K L IY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kliːn/"
+    ]
+  },
+  {
+    "word": "cleaned",
+    "cmu": "K L IY1 N D",
+    "syllableCount": 1,
+    "sounds": [
+      "/kliːnd/"
+    ]
+  },
+  {
+    "word": "cleaner",
+    "cmu": "K L IY1 N ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kliː/",
+      "/nɝ/"
+    ]
+  },
+  {
+    "word": "clear",
+    "cmu": "K L IH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/klɪr/"
+    ]
+  },
+  {
+    "word": "clearly",
+    "cmu": "K L IH1 R L IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/klɪrliː/"
+    ]
+  },
+  {
+    "word": "clerk",
+    "cmu": "K L ER1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/klɝk/"
+    ]
+  },
+  {
+    "word": "clever",
+    "cmu": "K L EH1 V ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kle/",
+      "/vɝ/"
+    ]
+  },
+  {
+    "word": "click",
+    "cmu": "K L IH1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/klɪk/"
+    ]
+  },
+  {
+    "word": "climb",
+    "cmu": "K L AY1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/klaɪm/"
+    ]
+  },
+  {
+    "word": "climber",
+    "cmu": "K L AY1 M ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/klaɪ/",
+      "/mɝ/"
+    ]
+  },
+  {
+    "word": "clock",
+    "cmu": "K L AA1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/klɑk/"
+    ]
+  },
+  {
+    "word": "clone",
+    "cmu": "K L OW1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kloʊn/"
+    ]
+  },
+  {
+    "word": "close",
+    "cmu": "K L OW1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/kloʊs/"
+    ]
+  },
+  {
+    "word": "closed",
+    "cmu": "K L OW1 Z D",
+    "syllableCount": 1,
+    "sounds": [
+      "/kloʊzd/"
+    ]
+  },
+  {
+    "word": "cloth",
+    "cmu": "K L AO1 TH",
+    "syllableCount": 1,
+    "sounds": [
+      "/klɔθ/"
+    ]
+  },
+  {
+    "word": "clothes",
+    "cmu": "K L OW1 DH Z",
+    "syllableCount": 1,
+    "sounds": [
+      "/kloʊðz/"
+    ]
+  },
+  {
+    "word": "cloud",
+    "cmu": "K L AW1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/klaʊd/"
+    ]
+  },
+  {
+    "word": "cloudy",
+    "cmu": "K L AW1 D IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/klaʊ/",
+      "/diː/"
+    ]
+  },
+  {
+    "word": "club",
+    "cmu": "K L AH1 B",
+    "syllableCount": 1,
+    "sounds": [
+      "/klʌb/"
+    ]
+  },
+  {
+    "word": "coach",
+    "cmu": "K OW1 CH",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊtʃ/"
+    ]
+  },
+  {
+    "word": "coal",
+    "cmu": "K OW1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊl/"
+    ]
+  },
+  {
+    "word": "coast",
+    "cmu": "K OW1 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊst/"
+    ]
+  },
+  {
+    "word": "coat",
+    "cmu": "K OW1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊt/"
+    ]
+  },
+  {
+    "word": "cock",
+    "cmu": "K AA1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑk/"
+    ]
+  },
+  {
+    "word": "code",
+    "cmu": "K OW1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊd/"
+    ]
+  },
+  {
+    "word": "coffee",
+    "cmu": "K AA1 F IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/fiː/"
+    ]
+  },
+  {
+    "word": "coin",
+    "cmu": "K OY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɔɪn/"
+    ]
+  },
+  {
+    "word": "Coke",
+    "cmu": "K OW1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊk/"
+    ]
+  },
+  {
+    "word": "cola",
+    "cmu": "K OW1 L AH0",
+    "syllableCount": 2,
+    "sounds": [
+      "/koʊ/",
+      "/lʌ/"
+    ]
+  },
+  {
+    "word": "cold",
+    "cmu": "K OW1 L D",
+    "syllableCount": 1,
+    "sounds": [
+      "/koʊld/"
+    ]
+  },
+  {
+    "word": "collect",
+    "cmu": "K AH0 L EH1 K T",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/lekt/"
+    ]
+  },
+  {
+    "word": "college",
+    "cmu": "K AA1 L IH0 JH",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/lɪdʒ/"
+    ]
+  },
+  {
+    "word": "Colombia",
+    "cmu": "K AH0 L AH1 M B IY0 AH0",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌ/",
+      "/lʌmbiː/",
+      "/ʌ/"
+    ]
+  },
+  {
+    "word": "color",
+    "cmu": "K AH1 L ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/lɝ/"
+    ]
+  },
+  {
+    "word": "colour",
+    "cmu": "K AH1 L ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/lɝ/"
+    ]
+  },
+  {
+    "word": "com",
+    "cmu": "K AA1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑm/"
+    ]
+  },
+  {
+    "word": "come",
+    "cmu": "K AH1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌm/"
+    ]
+  },
+  {
+    "word": "comedy",
+    "cmu": "K AA1 M AH0 D IY0",
+    "syllableCount": 3,
+    "sounds": [
+      "/kɑ/",
+      "/mʌ/",
+      "/diː/"
+    ]
+  },
+  {
+    "word": "comfortable",
+    "cmu": "K AH1 M F ER0 T AH0 B AH0 L",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌmfɝ/",
+      "/tʌ/",
+      "/bʌl/"
+    ]
+  },
+  {
+    "word": "comfortably",
+    "cmu": "K AH1 M F ER0 T AH0 B L IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌmfɝ/",
+      "/tʌbliː/"
+    ]
+  },
+  {
+    "word": "comic",
+    "cmu": "K AA1 M IH0 K",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/mɪk/"
+    ]
+  },
+  {
+    "word": "common",
+    "cmu": "K AA1 M AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/mʌn/"
+    ]
+  },
+  {
+    "word": "communicate",
+    "cmu": "K AH0 M Y UW1 N AH0 K EY2 T",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌmjuː/",
+      "/nʌ/",
+      "/keɪt/"
+    ]
+  },
+  {
+    "word": "communication",
+    "cmu": "K AH0 M Y UW2 N AH0 K EY1 SH AH0 N",
+    "syllableCount": 4,
+    "sounds": [
+      "/kʌmjuː/",
+      "/nʌ/",
+      "/keɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "community",
+    "cmu": "K AH0 M Y UW1 N AH0 T IY0",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌmjuː/",
+      "/nʌ/",
+      "/tiː/"
+    ]
+  },
+  {
+    "word": "company",
+    "cmu": "K AH1 M P AH0 N IY2",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌmpʌ/",
+      "/niː/"
+    ]
+  },
+  {
+    "word": "compare",
+    "cmu": "K AH0 M P EH1 R",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌmper/"
+    ]
+  },
+  {
+    "word": "compete",
+    "cmu": "K AH0 M P IY1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌmpiːt/"
+    ]
+  },
+  {
+    "word": "competition",
+    "cmu": "K AA2 M P AH0 T IH1 SH AH0 N",
+    "syllableCount": 3,
+    "sounds": [
+      "/kɑmpʌ/",
+      "/tɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "competitor",
+    "cmu": "K AH0 M P EH1 T AH0 T ER0",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌmpe/",
+      "/tʌ/",
+      "/tɝ/"
+    ]
+  },
+  {
+    "word": "complain",
+    "cmu": "K AH0 M P L EY1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌmpleɪn/"
+    ]
+  },
+  {
+    "word": "complete",
+    "cmu": "K AH0 M P L IY1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌmpliːt/"
+    ]
+  },
+  {
+    "word": "completely",
+    "cmu": "K AH0 M P L IY1 T L IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌmpliːtliː/"
+    ]
+  },
+  {
+    "word": "composition",
+    "cmu": "K AA2 M P AH0 Z IH1 SH AH0 N",
+    "syllableCount": 3,
+    "sounds": [
+      "/kɑmpʌ/",
+      "/zɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "computer",
+    "cmu": "K AH0 M P Y UW1 T ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌmpjuː/",
+      "/tɝ/"
+    ]
+  },
+  {
+    "word": "concert",
+    "cmu": "K AA1 N S ER0 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑnsɝt/"
+    ]
+  },
+  {
+    "word": "condition",
+    "cmu": "K AH0 N D IH1 SH AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌndɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "conductor",
+    "cmu": "K AH0 N D AH1 K T ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌndʌktɝ/"
+    ]
+  },
+  {
+    "word": "conference",
+    "cmu": "K AA1 N F ER0 AH0 N S",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑnfɝʌns/"
+    ]
+  },
+  {
+    "word": "confidence",
+    "cmu": "K AA1 N F AH0 D AH0 N S",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑnfʌ/",
+      "/dʌns/"
+    ]
+  },
+  {
+    "word": "confident",
+    "cmu": "K AA1 N F AH0 D AH0 N T",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑnfʌ/",
+      "/dʌnt/"
+    ]
+  },
+  {
+    "word": "congratulate",
+    "cmu": "K AH0 N G R AE1 CH AH0 L EY2 T",
+    "syllableCount": 3,
+    "sounds": [
+      "/kʌngræ/",
+      "/tʃʌ/",
+      "/leɪt/"
+    ]
+  },
+  {
+    "word": "congratulation",
+    "cmu": "K AH0 N G R AE2 CH AH0 L EY1 SH AH0 N",
+    "syllableCount": 4,
+    "sounds": [
+      "/kʌngræ/",
+      "/tʃʌ/",
+      "/leɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "connect",
+    "cmu": "K AH0 N EH1 K T",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/nekt/"
+    ]
+  },
+  {
+    "word": "consider",
+    "cmu": "K AH0 N S IH1 D ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌnsɪ/",
+      "/dɝ/"
+    ]
+  },
+  {
+    "word": "continue",
+    "cmu": "K AH0 N T IH1 N Y UW0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌntɪnjuː/"
+    ]
+  },
+  {
+    "word": "contribution",
+    "cmu": "K AA2 N T R AH0 B Y UW1 SH AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑntrʌbjuː/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "control",
+    "cmu": "K AH0 N T R OW1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌntroʊl/"
+    ]
+  },
+  {
+    "word": "convenient",
+    "cmu": "K AH0 N V IY1 N Y AH0 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌnviːnjʌnt/"
+    ]
+  },
+  {
+    "word": "conversation",
+    "cmu": "K AA2 N V ER0 S EY1 SH AH0 N",
+    "syllableCount": 3,
+    "sounds": [
+      "/kɑnvɝ/",
+      "/seɪ/",
+      "/ʃʌn/"
+    ]
+  },
+  {
+    "word": "cook",
+    "cmu": "K UH1 K",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʊk/"
+    ]
+  },
+  {
+    "word": "cooker",
+    "cmu": "K UH1 K ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʊ/",
+      "/kɝ/"
+    ]
+  },
+  {
+    "word": "cookie",
+    "cmu": "K UH1 K IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʊ/",
+      "/kiː/"
+    ]
+  },
+  {
+    "word": "cool",
+    "cmu": "K UW1 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kuːl/"
+    ]
+  },
+  {
+    "word": "copy",
+    "cmu": "K AA1 P IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/piː/"
+    ]
+  },
+  {
+    "word": "coral",
+    "cmu": "K AO1 R AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɔ/",
+      "/rʌl/"
+    ]
+  },
+  {
+    "word": "corn",
+    "cmu": "K AO1 R N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɔrn/"
+    ]
+  },
+  {
+    "word": "corner",
+    "cmu": "K AO1 R N ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɔrnɝ/"
+    ]
+  },
+  {
+    "word": "correct",
+    "cmu": "K ER0 EH1 K T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɝekt/"
+    ]
+  },
+  {
+    "word": "cost",
+    "cmu": "K AA1 S T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑst/"
+    ]
+  },
+  {
+    "word": "costume",
+    "cmu": "K AA0 S T UW1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑstuːm/"
+    ]
+  },
+  {
+    "word": "cotton",
+    "cmu": "K AA1 T AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/kɑ/",
+      "/tʌn/"
+    ]
+  },
+  {
+    "word": "cough",
+    "cmu": "K AA1 F",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɑf/"
+    ]
+  },
+  {
+    "word": "could",
+    "cmu": "K UH1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʊd/"
+    ]
+  },
+  {
+    "word": "count",
+    "cmu": "K AW1 N T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kaʊnt/"
+    ]
+  },
+  {
+    "word": "country",
+    "cmu": "K AH1 N T R IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌntriː/"
+    ]
+  },
+  {
+    "word": "countryside",
+    "cmu": "K AH1 N T R IY0 S AY2 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌntriː/",
+      "/saɪd/"
+    ]
+  },
+  {
+    "word": "couple",
+    "cmu": "K AH1 P AH0 L",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/pʌl/"
+    ]
+  },
+  {
+    "word": "courage",
+    "cmu": "K ER1 AH0 JH",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɝʌdʒ/"
+    ]
+  },
+  {
+    "word": "course",
+    "cmu": "K AO1 R S",
+    "syllableCount": 1,
+    "sounds": [
+      "/kɔrs/"
+    ]
+  },
+  {
+    "word": "cousin",
+    "cmu": "K AH1 Z AH0 N",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/zʌn/"
+    ]
+  },
+  {
+    "word": "cover",
+    "cmu": "K AH1 V ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/vɝ/"
+    ]
+  },
+  {
+    "word": "cow",
+    "cmu": "K AW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/kaʊ/"
+    ]
+  },
+  {
+    "word": "craft",
+    "cmu": "K R AE1 F T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kræft/"
+    ]
+  },
+  {
+    "word": "crash",
+    "cmu": "K R AE1 SH",
+    "syllableCount": 1,
+    "sounds": [
+      "/kræʃ/"
+    ]
+  },
+  {
+    "word": "crayon",
+    "cmu": "K R EY1 AA2 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kreɪɑn/"
+    ]
+  },
+  {
+    "word": "crazy",
+    "cmu": "K R EY1 Z IY0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kreɪ/",
+      "/ziː/"
+    ]
+  },
+  {
+    "word": "cream",
+    "cmu": "K R IY1 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/kriːm/"
+    ]
+  },
+  {
+    "word": "create",
+    "cmu": "K R IY0 EY1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kriːeɪt/"
+    ]
+  },
+  {
+    "word": "creative",
+    "cmu": "K R IY0 EY1 T IH0 V",
+    "syllableCount": 2,
+    "sounds": [
+      "/kriːeɪ/",
+      "/tɪv/"
+    ]
+  },
+  {
+    "word": "creativity",
+    "cmu": "K R IY2 EY0 T IH1 V AH0 T IY0",
+    "syllableCount": 4,
+    "sounds": [
+      "/kriːeɪ/",
+      "/tɪ/",
+      "/vʌ/",
+      "/tiː/"
+    ]
+  },
+  {
+    "word": "credit",
+    "cmu": "K R EH1 D AH0 T",
+    "syllableCount": 2,
+    "sounds": [
+      "/kre/",
+      "/dʌt/"
+    ]
+  },
+  {
+    "word": "crispy",
+    "cmu": "K R IH1 S P IY0",
+    "syllableCount": 1,
+    "sounds": [
+      "/krɪspiː/"
+    ]
+  },
+  {
+    "word": "crop",
+    "cmu": "K R AA1 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/krɑp/"
+    ]
+  },
+  {
+    "word": "cross",
+    "cmu": "K R AO1 S",
+    "syllableCount": 1,
+    "sounds": [
+      "/krɔs/"
+    ]
+  },
+  {
+    "word": "crossing",
+    "cmu": "K R AO1 S IH0 NG",
+    "syllableCount": 2,
+    "sounds": [
+      "/krɔ/",
+      "/sɪŋ/"
+    ]
+  },
+  {
+    "word": "crow",
+    "cmu": "K R OW1",
+    "syllableCount": 1,
+    "sounds": [
+      "/kroʊ/"
+    ]
+  },
+  {
+    "word": "crowd",
+    "cmu": "K R AW1 D",
+    "syllableCount": 1,
+    "sounds": [
+      "/kraʊd/"
+    ]
+  },
+  {
+    "word": "crowded",
+    "cmu": "K R AW1 D AH0 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/kraʊ/",
+      "/dʌd/"
+    ]
+  },
+  {
+    "word": "crown",
+    "cmu": "K R AW1 N",
+    "syllableCount": 1,
+    "sounds": [
+      "/kraʊn/"
+    ]
+  },
+  {
+    "word": "cruel",
+    "cmu": "K R UW1 AH0 L",
+    "syllableCount": 1,
+    "sounds": [
+      "/kruːʌl/"
+    ]
+  },
+  {
+    "word": "cry",
+    "cmu": "K R AY1",
+    "syllableCount": 1,
+    "sounds": [
+      "/kraɪ/"
+    ]
+  },
+  {
+    "word": "culture",
+    "cmu": "K AH1 L CH ER0",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌltʃɝ/"
+    ]
+  },
+  {
+    "word": "cup",
+    "cmu": "K AH1 P",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌp/"
+    ]
+  },
+  {
+    "word": "cupboard",
+    "cmu": "K AH1 B ER0 D",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌ/",
+      "/bɝd/"
+    ]
+  },
+  {
+    "word": "custom",
+    "cmu": "K AH1 S T AH0 M",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌstʌm/"
+    ]
+  },
+  {
+    "word": "customer",
+    "cmu": "K AH1 S T AH0 M ER0",
+    "syllableCount": 2,
+    "sounds": [
+      "/kʌstʌ/",
+      "/mɝ/"
+    ]
+  },
+  {
+    "word": "cut",
+    "cmu": "K AH1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kʌt/"
+    ]
+  },
+  {
+    "word": "cute",
+    "cmu": "K Y UW1 T",
+    "syllableCount": 1,
+    "sounds": [
+      "/kjuːt/"
+    ]
+  }
+]

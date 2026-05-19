@@ -1,0 +1,11 @@
+.gradle/
+.gradle-tmp/
+.inspect-apk/
+.refs/
+build/
+app/build/
+local.properties
+*.iml
+device-current.png
+device-current2.png
+*.log

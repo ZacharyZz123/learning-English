@@ -1,0 +1,468 @@
+﻿级别,规则,单词,音标,分块,分块音标,类型,说明
+WARN,weak_visual_split,advantage,/ədˈvɑːntɪdʒ/,a | d | v | a | n | t | a | g | e,,vowel consonant consonant vowel consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,again,/əˈɡen/,a | g | ai | n,,vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,although,/ɔːlˈðəʊ/,al | th | ough,,vowel consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Amusement,/əˈmjuːzmənt/,A | m | u | s | e | ment,,vowel consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,angel,/ˈeɪndʒl/,a | ng | e | l,,vowel consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,angry,/ˈæŋɡri/,a | ng | r | y,,vowel consonant consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,anybody,/ˈenibɒdi/,a | n | y | b | o | d | y,,vowel consonant consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,anyone,/ˈeniwʌn/,a | n | y | o | n | e,,vowel consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,anything,/ˈeniθɪŋ/,a | n | y | th | ing,,vowel consonant consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,anyway,/ˈeniweɪ/,a | n | y | w | ay,,vowel consonant consonant consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,are,/ə/,are,,vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,area,/ˈeəiə/,are | a,,vowel_team vowel,高风险拼读组合 `ea` 没有作为整体分块。
+WARN,risky_word_without_sounds,area,/ˈeəiə/,are | a,,vowel_team vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,aren't,/ˈɑrənt/,aren't,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Asian,/ˈeɪʃn/,A | s | i | a | n,,vowel consonant vowel vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,bamboo,/ˌbæmˈbuː/,b | a | m | b | oo,/b/ /æ/ /m/ /b/ /uː/,consonant vowel consonant consonant vowel_team,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,weak_visual_split,bandage,/ˈbændɪdʒ/,b | a | n | d | a | g | e,,consonant vowel consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,baseball,/ˈbeɪsbɔːl/,b | a | s | e | b | all,,consonant vowel consonant vowel consonant vowel_team,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,basin,/ˈbeɪsn/,b | a | s | i | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,beautiful,/ˈbjuːtɪfl/,b | ea | u | t | i | ful,,consonant vowel_team vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,beautifully,/ˈbjuːtɪfli/,b | ea | u | t | i | ful | ly,,consonant vowel_team vowel consonant vowel suffix suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,beauty,/ˈbjuːti/,b | ea | u | t | y,,consonant vowel_team vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,behaviour,/bɪˈheɪvjə/,b | e | h | a | v | i | ou | r,,consonant vowel consonant vowel consonant vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,behaviour,/bɪˈheɪvjə/,b | e | h | a | v | i | ou | r,,consonant vowel consonant vowel consonant vowel vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,between .,/bɪˈtwiːn/,between .,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,biscuit,/ˈbɪskɪt/,b | i | sc | ui | t,,consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,blackboard,/ˈblækbɔːd/,bl | a | ck | b | oa | r | d,,consonant vowel consonant consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,blood,/blʌd/,bl | oo | d,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,board,/bɔːd/,b | oa | r | d,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,boarding,/ˈbɔːdɪŋ/,b | oa | r | d | ing,,consonant vowel_team consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,boring,/ˈbɔːrɪŋ/,b | or | ing,,consonant r_controlled suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,break,/breɪk/,br | ea | k,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Britain,/ˈbrɪtn/,Br | i | t | ai | n,,consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,brochure,/ˈbrəʊʃə/,br | o | ch | ur | e,,consonant vowel consonant r_controlled vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,build,/bɪld/,b | ui | l | d,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,building,/ˈbɪldɪŋ/,b | ui | l | d | ing,,consonant vowel_team consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,camel,/ˈkæml/,c | a | m | e | l,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,cancel,/ˈkænsl/,c | a | n | c | e | l,,consonant vowel consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,captain,/ˈkæptɪn/,c | a | p | t | ai | n,,consonant vowel consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,careful,/ˈkeəfl/,c | are | ful,,consonant vowel_team suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,caring,/ˈkeəɪŋ/,c | ar | ing,,consonant r_controlled suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,ceiling,/ˈsiːlɪŋ/,c | e | i | l | ing,,consonant vowel vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,certain,/ˈsɜːtn/,c | er | t | ai | n,,consonant r_controlled consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,certainly,/ˈsɜːtnli/,c | er | t | ai | n | ly,,consonant r_controlled consonant vowel_team consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,chairwoman,/ˈtʃeəwʊmən/,ch | air | w | o | m | a | n,,consonant vowel_team consonant vowel consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,chairwoman,/ˈtʃeəwʊmən/,ch | air | w | o | m | a | n,,consonant vowel_team consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,chalk,/tʃɔːk/,ch | al | k,,consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,challenge,/ˈtʃælɪndʒ/,ch | a | ll | e | n | g | e,/tʃ/ /æ/ /l/ /ɪ/ /n/ /dʒ/ ,consonant vowel consonant vowel consonant consonant silent,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,high_risk_pattern_split,change,/tʃeɪndʒ/,ch | a | n | g | e,/tʃ/ /eɪ/ /n/ /dʒ/ ,consonant vowel consonant consonant silent,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,risky_word_without_sounds,channel,/ˈtʃænl/,ch | a | nn | e | l,,consonant vowel consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Charles,/ˈtʃɑrəlz/,Ch | ar | le | s,,consonant r_controlled vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,check-out,/ˈtʃek/,check-out,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Chiang Mai,/tʃæŋmaɪ/,Chiang Mai,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,chimney,/ˈtʃɪmni/,ch | i | m | n | e | y,,consonant vowel consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,chimney,/ˈtʃɪmni/,ch | i | m | n | e | y,,consonant vowel consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,chocolate,/ˈtʃɒklət/,ch | o | c | o | l | a | t | e,,consonant vowel consonant vowel consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,chocolate,/ˈtʃɒklət/,ch | o | c | o | l | a | t | e,,consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,Christmas,/ˈkrɪsməs/,Ch | r | i | st | m | a | s,,consonant consonant vowel consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,coffee,/ˈkɒfi/,c | o | ff | ee,,consonant vowel consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,collect leaves,/kəˈlɛktlivz/,collect leaves,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,Colombia,/kəˈlɒmbiə/,C | o | l | o | m | b | i | a,/k/ /ə/ /l/ /ɒ/ /m/ /b/ /i/ /ə/,consonant vowel consonant vowel consonant consonant vowel vowel,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,risky_word_without_sounds,colour,/ˈkʌlə/,c | o | l | ou | r,,consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,colourful,/ˈkʌləfl/,c | o | l | ou | r | ful,,consonant vowel consonant vowel_team consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,community,/kəˈmjuːnəti/,c | o | mm | u | n | i | t | y,,consonant vowel consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,competition,/ˌkɑmpəˈtɪʃən/,c | o | m | p | e | t | i | tion,,consonant vowel consonant consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,competition,/ˌkɑmpəˈtɪʃən/,c | o | m | p | e | t | i | tion,,consonant vowel consonant consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,composition,/ˌkɑmpəˈzɪʃən/,c | o | m | p | o | s | i | tion,,consonant vowel consonant consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,composition,/ˌkɑmpəˈzɪʃən/,c | o | m | p | o | s | i | tion,,consonant vowel consonant consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,congratulate,/kənˈgrætjʊˌleɪt/,c | o | ng | r | a | t | u | l | a | t | e,,consonant vowel consonant consonant vowel consonant vowel consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,congratulate,/kənˈgrætjʊˌleɪt/,c | o | ng | r | a | t | u | l | a | t | e,,consonant vowel consonant consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,congratulation,/kənˌgrætjʊˈleɪʃən/,c | o | ng | r | a | t | u | l | a | tion,,consonant vowel consonant consonant vowel consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,congratulation,/kənˌgrætjʊˈleɪʃən/,c | o | ng | r | a | t | u | l | a | tion,,consonant vowel consonant consonant vowel consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,convenient,/kənˈviːnjənt/,c | o | n | v | e | n | ie | n | t,,consonant vowel consonant consonant vowel consonant vowel_team consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,cough,/kɒf/,c | ough,,consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,could,/kəd/,c | ou | l | d,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,courage,/ˈkʌrɪdʒ/,c | ou | r | a | g | e,,consonant vowel_team consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,course,/kɔːs/,c | ou | r | s | e,,consonant vowel_team consonant consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,cousin,/ˈkʌzn/,c | ou | s | i | n,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,create,/kriˈeɪt/,cr | ea | t | e,,consonant vowel_team consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,creative,/kriˈeɪtɪv/,cr | ea | t | i | v | e,,consonant vowel_team consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,creativity,/ˌkriːeɪˈtɪvəti/,cr | ea | t | i | v | i | t | y,,consonant vowel_team consonant vowel consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,creativity,/ˌkriːeɪˈtɪvəti/,cr | ea | t | i | v | i | t | y,,consonant vowel_team consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,cupboard,/ˈkʌbəd/,c | u | p | b | oa | r | d,,consonant vowel consonant consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,danger,/ˈdeɪndʒə/,d | a | n | g | er,/d/ /eɪ/ /n/ /dʒ/ /ə/,consonant vowel consonant consonant r_controlled,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,risky_word_without_sounds,dangerous,/ˈdeɪndʒəəs/,d | a | ng | er | ou | s,,consonant vowel consonant r_controlled vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,December,/dɪˈsembə/,D | e | c | e | m | b | er,/d/ /ɪ/ /s/ /e/ /m/ /b/ /ə/,consonant vowel consonant vowel consonant consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,risky_word_without_sounds,decision,/dɪˈsɪʒn/,d | e | c | i | sion,,consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,delicious,/dɪˈlɪʃəs/,d | e | l | i | c | i | ou | s,,consonant vowel consonant vowel consonant vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,delicious,/dɪˈlɪʃəs/,d | e | l | i | c | i | ou | s,,consonant vowel consonant vowel consonant vowel vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,dictionary,/ˈdɪkʃənri/,d | i | c | tion | ar | y,,consonant vowel consonant suffix r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,dinosaur,/ˈdaɪnəsɔː/,d | i | n | o | s | au | r,,consonant vowel consonant vowel consonant vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,direct,/dəˈrekt/,d | ire | c | t,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,direction,/dəˈrekʃn/,d | ire | c | tion,,consonant vowel_team consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,directly,/dəˈrektli/,d | ire | c | t | ly,,consonant vowel_team consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,director,/dəˈrektə/,d | ire | c | t | or,,consonant vowel_team consonant consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,discussion,/dɪˈskʌʃn/,d | i | sc | u | ssion,,consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Disneyland,/ˈdɪznɪlænd/,D | i | sn | e | y | l | a | n | d,,consonant vowel consonant vowel consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,door,/dɔː/,d | oo | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,doorbell,/ˈdɔːbel/,d | oo | r | b | e | ll,,consonant vowel_team consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,doubt,/daʊt/,d | ou | b | t,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,dozen,/ˈdʌzn/,d | o | z | e | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,drought,/draʊt/,dr | ough | t,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,during,/ˈdjʊəɪŋ/,d | ur | ing,,consonant r_controlled suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,e-mail,/iːmeɪl/,e-mail,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,each other,/iːtʃˈʌðə/,each other,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,earring,/ˈɪəɪŋ/,ear | r | ing,,vowel_team consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,easily,/ˈiːzəli/,ea | s | i | ly,,vowel_team consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,eat dinner,/iːt ˈdɪnə/,eat dinner,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,ecosystem,/ˈiːkəʊsɪstəm/,e | c | o | s | y | st | e | m,,vowel consonant vowel consonant consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,educate,/ˈedʒukeɪt/,ed | u | c | a | t | e,,suffix vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,education,/ˌedʒuˈkeɪʃn/,ed | u | c | a | tion,,suffix vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,educational,/ˌedʒuˈkeɪʃənl/,ed | u | c | a | tion | al,,suffix vowel consonant vowel suffix vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,eight,/eɪt/,e | igh | t,,vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,eighteen,/ˌeɪˈtiːn/,e | igh | t | ee | n,,vowel vowel_team consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,eighteenth,/ˌeɪˈtiːnθ/,e | igh | t | ee | n | th,,vowel vowel_team consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,eighth,/eɪtθ/,e | igh | th,,vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,eighty,/ˈeɪti/,e | igh | t | y,,vowel vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,either,/ˈaɪðə/,e | i | th | er,,vowel vowel consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,electricity,/ɪˌlekˈtrɪsəti/,e | le | c | tr | i | c | i | t | y,,vowel vowel consonant consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,embarrassed,/ɪmˈbærəst/,e | m | b | a | rr | a | ss | ed,/ɪ/ /m/ /b/ /æ/ /r/ /ə/ /s/ /t/,vowel consonant consonant vowel consonant vowel consonant suffix,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,high_risk_pattern_split,embarrassing,/ɪmˈbærəsɪŋ/,e | m | b | a | rr | a | ss | ing,/ɪ/ /m/ /b/ /æ/ /r/ /ə/ /s/ /ɪŋ/,vowel consonant consonant vowel consonant vowel consonant suffix,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,risky_word_without_sounds,encourage,/ɪnˈkʌrɪdʒ/,e | n | c | ou | r | a | g | e,,vowel consonant consonant vowel_team consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,endangered,/ɪnˈdeɪndʒəd/,e | n | d | a | n | g | er | ed,/ɪ/ /n/ /d/ /eɪ/ /n/ /dʒ/ /ə/ /d/,vowel consonant consonant vowel consonant consonant r_controlled suffix,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,high_risk_pattern_split,engineer,/ˌendʒɪˈnɪə/,e | n | g | i | n | eer,/e/ /n/ /dʒ/ /ɪ/ /n/ /ɪə/,vowel consonant consonant vowel consonant vowel_team,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,risky_word_without_sounds,England,/ˈɪŋɡlənd/,E | ng | l | a | n | d,,vowel consonant consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,English,/ˈɪŋɡlɪʃ/,E | ng | l | i | sh,,vowel consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Englishman,/ˈɪŋɡlɪʃmən/,E | ng | l | i | sh | m | a | n,,vowel consonant consonant vowel consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,enough,/ɪˈnʌf/,e | n | ough,,vowel consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,European,/ˌjʊəəˈpiːən/,E | ur | o | p | ea | n,,vowel r_controlled vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,evening,/ˈiːvnɪŋ/,e | v | e | n | ing,,vowel consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,everybody,/ˈevribɒdi/,e | v | er | y | b | o | d | y,,vowel consonant r_controlled consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,everyday,/ˈevrideɪ/,e | v | er | y | d | ay,,vowel consonant r_controlled consonant consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,everything,/ˈevriθɪŋ/,e | v | er | y | th | ing,,vowel consonant r_controlled consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,except,/ɪkˈsept/,e | x | c | e | p | t,,vowel consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,exchange,/ɪksˈtʃeɪndʒ/,e | x | ch | a | n | g | e,/ɪ/ /ks/ /tʃ/ /eɪ/ /n/ /dʒ/ ,vowel consonant consonant vowel consonant consonant silent,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,weak_visual_split,excite,/ɪkˈsaɪt/,e | x | c | i | t | e,,vowel consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,excited,/ɪkˈsaɪtɪd/,e | x | c | i | t | ed,,vowel consonant consonant vowel consonant suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,excitement,/ɪkˈsaɪtmənt/,e | x | c | i | t | e | ment,,vowel consonant consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,exciting,/ɪkˈsaɪtɪŋ/,e | x | c | i | t | ing,,vowel consonant consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,exciting,/ɪkˈsaɪtɪŋ/,e | x | c | i | t | ing,,vowel consonant consonant vowel consonant suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,expression,/ɪkˈspreʃn/,e | x | pr | es | sion,,vowel consonant consonant suffix suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,fairest,/feə/,f | air | es | t,,consonant vowel_team suffix consonant,高风险拼读组合 `ire` 没有作为整体分块。
+WARN,risky_word_without_sounds,fairest,/feə/,f | air | es | t,,consonant vowel_team suffix consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,famous,/ˈfeɪməs/,f | a | m | ou | s,,consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,fascinating,/ˈfæsɪneɪtɪŋ/,f | a | sc | i | n | a | t | ing,,consonant vowel consonant vowel consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,favourite,/ˈfeɪvəɪt/,f | a | v | ou | r | i | t | e,,consonant vowel consonant vowel_team consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,feed,/fiːd/,f | ee | d,/f/ /iː/ /d/,consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,finger,/ˈfɪŋɡə/,f | ing | er,,consonant suffix r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,flood,/flʌd/,fl | oo | d,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,floor,/flɔː/,fl | oo | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,four,/fɔː/,f | ou | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,fourteen,/ˌfɔːˈtiːn/,f | ou | r | t | ee | n,,consonant vowel_team consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,fourth,/fɔːθ/,f | ou | r | th,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,friendship,/ˈfrendʃɪp/,fr | ie | n | d | sh | i | p,,consonant vowel_team consonant consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,frighten,/ˈfraɪtn/,fr | igh | t | e | n,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,frightened,/ˈfraɪtnd/,fr | igh | t | e | n | ed,,consonant vowel_team consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,gatekeeper,/ˈɡeɪtkiːpə/,g | a | t | e | k | ee | p | er,,consonant vowel consonant vowel consonant vowel_team consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,gatekeeper,/ˈɡeɪtkiːpə/,g | a | t | e | k | ee | p | er,,consonant vowel consonant vowel consonant vowel_team consonant r_controlled,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,generosity,/ˌdʒenəˈrɒsəti/,g | e | n | er | o | s | i | t | y,,consonant vowel consonant r_controlled vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,geography,/dʒiˈɒɡrəfi/,g | e | o | gr | a | ph | y,,consonant vowel vowel consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,given,/ˈɡɪvn/,g | i | v | e | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,go hiking,/ɡəʊˈhaɪkɪŋ/,go hiking,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ing_not_grouped,go hiking,/ɡəʊˈhaɪkɪŋ/,go hiking,,word,`-ing` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,good idea,/gʊdaɪˈdiə/,good idea,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,good job,/gʊddʒɑb/,good job,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,graduate,/ˈɡrædʒuət/,gr | a | d | u | a | t | e,,consonant vowel consonant vowel vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,graduation,/ˌɡrædʒuˈeɪʃn/,gr | a | d | u | a | tion,,consonant vowel consonant vowel vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,grandchild,/ˈɡræntʃaɪld/,gr | a | n | d | ch | i | l | d,,consonant vowel consonant consonant consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,grandfather,/ˈɡrænfɑːðə/,gr | a | n | d | f | a | th | er,,consonant vowel consonant consonant consonant vowel consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,grandfather,/ˈɡrænfɑːðə/,gr | a | n | d | f | a | th | er,,consonant vowel consonant consonant consonant vowel consonant r_controlled,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,grandma,/ˈɡrænmɑː/,gr | a | n | d | m | a,,consonant vowel consonant consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,grandmother,/ˈɡrænmʌðə/,gr | a | n | d | m | o | th | er,,consonant vowel consonant consonant consonant vowel consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,grandmother,/ˈɡrænmʌðə/,gr | a | n | d | m | o | th | er,,consonant vowel consonant consonant consonant vowel consonant r_controlled,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,grandpa,/ˈɡrænpɑː/,gr | a | n | d | p | a,,consonant vowel consonant consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,grandparent,/ˈɡrænpeəənt/,gr | a | n | d | p | are | n | t,,consonant vowel consonant consonant consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,grandparents,/ˈgrændpeəənts/,gr | a | n | d | p | are | n | t | s,,consonant vowel consonant consonant consonant vowel_team consonant consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,grandson,/ˈɡrænsʌn/,gr | a | n | d | s | o | n,,consonant vowel consonant consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,great,/ɡreɪt/,gr | ea | t,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,guide,/ɡaɪd/,g | ui | d | e,,consonant vowel_team consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,guitar,/ɡɪˈtɑː/,g | ui | t | ar,,consonant vowel_team consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,half-way,/ˌhɑːfˈweɪ/,half-way,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,halfway,/ˌhɑːfˈweɪ/,h | al | f | w | ay,,consonant vowel consonant consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,hamburger,/ˈhæmbɜːɡə/,h | a | m | b | ur | g | er,/h/ /æ/ /m/ /b/ /ɜː/ /g/ /ə/,consonant vowel consonant consonant r_controlled consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,weak_visual_split,hands,/hænd/,h | a | n | d | s,,consonant vowel consonant consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,handsome,/ˈhænsəm/,h | a | n | d | s | o | m | e,,consonant vowel consonant consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,hard-working,/hɑːdˈwɜːkɪŋ/,hard-working,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ing_not_grouped,hard-working,/hɑːdˈwɜːkɪŋ/,hard-working,,word,`-ing` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,have a headache,/hævəˈhɛˌdeɪk/,have a headache,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,have a toothache,/hæveiˈtuːθeɪk/,have a toothache,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,heart,/hɑːt/,h | ear | t,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,heaven,/ˈhevn/,h | ea | v | e | n,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,height,/haɪt/,h | e | igh | t,,consonant vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,holiday,/ˈhɒlədeɪ/,h | o | l | i | d | ay,,consonant vowel consonant vowel consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,holiday,/ˈhɒlədeɪ/,h | o | l | i | d | ay,,consonant vowel consonant vowel consonant vowel_team,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,hometown,/ˈhəʊmtaʊn/,h | o | m | e | t | ow | n,,consonant vowel consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,hometown,/ˈhəʊmtaʊn/,h | o | m | e | t | ow | n,,consonant vowel consonant vowel consonant vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,honey,/ˈhʌni/,h | o | n | e | y,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,hour,/ˈaʊə/,h | ou | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,housewarming,/ˈhaʊzwɔːmɪŋ/,h | ou | s | ew | ar | m | ing,,consonant vowel_team consonant vowel_team r_controlled consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,housework,/ˈhaʊswɜːk/,h | ou | s | ew | or | k,,consonant vowel_team consonant vowel_team r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,humorous,/ˈhjuːməəs/,h | u | m | or | ou | s,,consonant vowel consonant r_controlled vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,hundred,/ˈhʌndrəd/,h | u | n | dr | e | d,/h/ /ʌ/ /n/ /dr/ /ə/ /d/,consonant vowel consonant consonant vowel consonant,`-ed` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,hungry,/ˈhʌŋɡri/,h | u | ng | r | y,,consonant vowel consonant consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,ice-cream,/ˈaɪskriːm/,ice-cream,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,idea,/aɪˈdɪə/,i | d | e | a,/aɪ/ /d/ /ɪ/ /ə/,vowel consonant vowel vowel,高风险拼读组合 `ea` 没有作为整体分块。
+WARN,weak_visual_split,importance,/ɪmˈpɔːtns/,i | m | p | or | t | a | n | c | e,,vowel consonant consonant r_controlled consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,inspiration,/ˌɪnspəˈreɪʃn/,i | n | sp | ir | a | tion,,vowel consonant consonant r_controlled vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,interesting,/ˈɪntrəstɪŋ/,i | n | t | er | es | t | ing,,vowel consonant consonant r_controlled suffix consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,J.K. Rowling,/jkrowling/,J.K. Rowling,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,journalist,/ˈdʒɜːnəlɪst/,j | ou | r | n | al | i | st,,consonant vowel_team consonant consonant vowel vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,journey,/ˈdʒɜːni/,j | ou | r | n | e | y,,consonant vowel_team consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,kangaroo,/ˌkæŋɡəˈruː/,k | a | ng | ar | oo,,consonant vowel consonant r_controlled vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Kevin,/ˈkɛvɪn/,K | e | v | i | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,keyboard,/ˈkiːbɔːd/,k | e | y | b | oa | r | d,,consonant vowel consonant consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,kilometre,/ˈkɪləmiːtə/,k | i | l | o | m | e | tr | e,,consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,kind-hearted,/kaɪndˈhɑːtɪd/,kind-hearted,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,kind-hearted,/kaɪndˈhɑːtɪd/,kind-hearted,,word,`-ed` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,knowledge,/ˈnɒlɪdʒ/,kn | ow | le | d | g | e,,consonant vowel_team vowel consonant consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,koala,/kəʊˈɑːlə/,k | o | a | l | a,/k/ /əʊ/ /ɑː/ /l/ /ə/,consonant vowel vowel consonant vowel,高风险拼读组合 `oa` 没有作为整体分块。
+WARN,risky_word_without_sounds,Korea,/kəˈriə/,K | or | ea,,consonant r_controlled vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,language,/ˈlæŋɡwɪdʒ/,l | a | ng | u | a | g | e,,consonant vowel consonant vowel vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,licence,/ˈlaɪsns/,l | i | c | e | n | c | e,,consonant vowel consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,license,/ˈlaɪsns/,l | i | c | e | n | s | e,,consonant vowel consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,lifeboat,/ˈlaɪfbəʊt/,l | i | f | e | b | oa | t,,consonant vowel consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,lifeboat,/ˈlaɪfbəʊt/,l | i | f | e | b | oa | t,,consonant vowel consonant vowel consonant vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,lifeguard,/ˈlaɪfɡɑːd/,l | i | f | e | g | u | ar | d,,consonant vowel consonant vowel consonant vowel r_controlled consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,lifetime,/ˈlaɪftaɪm/,l | i | f | e | t | i | m | e,,consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,long hair,/lɔŋhɛr/,long hair,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Macao,/məˈkaʊ/,M | a | c | a | o,,consonant vowel consonant vowel vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,machine,/məˈʃiːn/,m | a | ch | i | n | e,,consonant vowel consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,magician,/məˈdʒɪʃn/,m | a | g | i | cian,,consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,make a snowman,/meɪkəˈsnəʊmæn/,make a snowman,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,manage,/ˈmænɪdʒ/,m | a | n | a | g | e,,consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,manager,/ˈmænɪdʒə/,m | a | n | a | g | er,,consonant vowel consonant vowel consonant r_controlled,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,Mandy,/ˈmændɪ/,M | a | n | d | y,,consonant vowel consonant consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,marriage,/ˈmærɪdʒ/,m | ar | r | i | a | g | e,,consonant r_controlled consonant vowel vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,maybe,/ˈmeɪbi/,m | ay | b | e,,consonant vowel_team consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,medicine,/ˈmedsn/,m | ed | i | c | i | n | e,,consonant suffix vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,member,/ˈmembə/,m | e | m | b | er,/m/ /e/ /m/ /b/ /ə/,consonant vowel consonant consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,high_risk_pattern_split,mention,/ˈmɛnʃən/,ment | i | o | n,,suffix vowel vowel consonant,高风险拼读组合 `tion` 没有作为整体分块。
+WARN,risky_word_without_sounds,mention,/ˈmɛnʃən/,ment | i | o | n,,suffix vowel vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,method,/ˈmɛθəd/,m | e | th | o | d,,consonant vowel consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,minute,/ˈmɪnɪt/,m | i | n | u | t | e,,consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,model,/ˈmɒdl/,m | o | d | e | l,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,money,/ˈmʌni/,m | o | n | e | y,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,monkey,/ˈmʌŋki/,m | o | n | k | e | y,,consonant vowel consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,Moscow,/ˈmɔskəʊ/,M | o | sc | ow,,consonant vowel consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,mountain,/ˈmaʊntən/,m | ou | n | t | ai | n,,consonant vowel_team consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,museum,/mjuˈziːəm/,m | u | s | e | u | m,,consonant vowel consonant vowel vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,national flag,/ˈnæʃənəlflæg/,national flag,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,need,/niːd/,n | ee | d,/n/ /iː/ /d/,consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,neighbour,/ˈneɪbə/,n | e | igh | b | ou | r,,consonant vowel vowel_team consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,neighbourhood,/ˈneɪbəhʊd/,n | e | igh | b | ou | r | h | oo | d,,consonant vowel vowel_team consonant vowel_team consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,neither,/ˈnaɪðə/,n | e | i | th | er,,consonant vowel vowel consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,nervous,/ˈnɜːvəs/,n | er | v | ou | s,,consonant r_controlled consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,New Zealand,/njuːˈziːlənd/,New Zealand,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,next week,/nɛkstwik/,next week,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,nineteen,/ˌnaɪnˈtiːn/,n | i | n | e | t | ee | n,,consonant vowel consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,nineteen,/ˌnaɪnˈtiːn/,n | i | n | e | t | ee | n,,consonant vowel consonant vowel consonant vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,ninety,/ˈnaɪnti/,n | i | n | e | t | y,,consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,nosebleed,/ˈnəʊzbliːd/,n | o | s | e | bl | ee | d,,consonant vowel consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,nosebleed,/ˈnəʊzbliːd/,n | o | s | e | bl | ee | d,,consonant vowel consonant vowel consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,notebook,/ˈnəʊtbʊk/,n | o | t | e | b | oo | k,,consonant vowel consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,notebook,/ˈnəʊtbʊk/,n | o | t | e | b | oo | k,,consonant vowel consonant vowel consonant vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,novel,/ˈnɒvl/,n | o | v | e | l,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,November,/nəʊˈvembə/,N | o | v | e | m | b | er,/n/ /əʊ/ /v/ /e/ /m/ /b/ /ə/,consonant vowel consonant vowel consonant consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,high_risk_pattern_split,number,/ˈnʌmbə/,n | u | m | b | er,/n/ /ʌ/ /m/ /b/ /ə/,consonant vowel consonant consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,risky_word_without_sounds,ocean,/ˈəʊʃn/,o | c | ea | n,,vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,of course,/əvkɔːs/,of course,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,often,/ˈɒfn/,o | f | t | e | n,,vowel consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,Olympics,/əʊˈlɪmpɪks/,O | ly | m | p | i | c | s,,vowel suffix consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,onion,/ˈʌnjən/,o | n | i | o | n,,vowel consonant vowel vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,opinion,/əˈpɪnjən/,o | p | i | n | i | o | n,,vowel consonant vowel consonant vowel vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,orange,/ˈɒrɪndʒ/,or | a | ng | e,,r_controlled vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,our,/ˈaʊə/,ou | r,,vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,ours,/ɑːz/,ou | r | s,,vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,ourselves,/ɑːˈselvz/,ou | r | s | e | l | v | es,,vowel_team consonant consonant vowel consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,ourselves,/ɑːˈselvz/,ou | r | s | e | l | v | es,,vowel_team consonant consonant vowel consonant consonant suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,outdoor,/ˈaʊtdɔː/,ou | t | d | oo | r,,vowel_team consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,outdoors,/ˌaʊtˈdɔːz/,ou | t | d | oo | r | s,,vowel_team consonant consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,outgoing,/ˈaʊtɡəʊɪŋ/,ou | t | g | o | ing,/aʊ/ /t/ /g/ /əʊ/ /ɪŋ/,vowel_team consonant consonant vowel suffix,高风险拼读组合 `oi` 没有作为整体分块。
+WARN,risky_word_without_sounds,package,/ˈpækɪdʒ/,p | a | ck | a | g | e,,consonant vowel consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,painful,/ˈpeɪnfl/,p | ai | n | ful,,consonant vowel_team consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,parent,/ˈpeəənt/,p | are | n | t,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,parents,/ˈpeəənts/,p | are | n | t | s,,consonant vowel_team consonant consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,passenger,/ˈpæsɪndʒə/,p | a | ss | e | n | g | er,/p/ /æ/ /s/ /ɪ/ /n/ /dʒ/ /ə/,consonant vowel consonant vowel consonant consonant r_controlled,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,risky_word_without_sounds,peaceful,/ˈpiːsfl/,p | ea | c | e | ful,,consonant vowel_team consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,peasant,/ˈpeznt/,p | ea | s | a | n | t,,consonant vowel_team consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Peking,/ˈpiˈkɪŋ/,P | e | k | ing,,consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,pencil,/ˈpensl/,p | e | n | c | i | l,,consonant vowel consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,penguin,/ˈpeŋɡwɪn/,p | e | ng | ui | n,,consonant vowel consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,physical,/ˈfɪzɪkl/,ph | y | s | i | c | al,,consonant consonant consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,physics,/ˈfɪzɪks/,ph | y | s | i | c | s,,consonant consonant consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,physics,/ˈfɪzɪks/,ph | y | s | i | c | s,,consonant consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,ping-pong,/pɪŋpɒŋ/,ping-pong,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,playhouse,/ˈpleɪhɑʊs/,pl | ay | h | ou | s | e,,consonant vowel_team consonant vowel_team consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,pleasant,/ˈpleznt/,pl | ea | s | a | n | t,,consonant vowel_team consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,police,/pəˈliːs/,p | o | l | i | c | e,,consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,policeman,/pəˈliːsmən/,p | o | l | i | c | e | m | a | n,,consonant vowel consonant vowel consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,policemen,/pəˈliːsmən/,p | o | l | i | c | e | m | e | n,,consonant vowel consonant vowel consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,politely,/pəˈlaɪtli/,p | o | l | i | t | e | ly,,consonant vowel consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,poor,/pʊə/,p | oo | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,popular,/ˈpɒpjələ/,p | o | p | u | l | ar,,consonant vowel consonant vowel consonant r_controlled,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,popularity,/ˌpɒpjuˈlærəti/,p | o | p | u | l | ar | i | t | y,,consonant vowel consonant vowel consonant r_controlled vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,population,/ˌpɒpjuˈleɪʃn/,p | o | p | u | l | a | tion,,consonant vowel consonant vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,population,/ˌpɒpjuˈleɪʃn/,p | o | p | u | l | a | tion,,consonant vowel consonant vowel consonant vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,porridge,/ˈpɒrɪdʒ/,p | or | r | i | d | g | e,,consonant r_controlled consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,pour,/pɔː/,p | ou | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,pressure,/ˈpreʃə/,pr | es | sure,,consonant suffix suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,pupil,/ˈpjuːpl/,p | u | p | i | l,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,quarrel,/ˈkwɒrəl/,qu | ar | r | e | l,,consonant r_controlled consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,quarter,/ˈkwɔːtə/,qu | ar | t | er,,consonant r_controlled consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,question,/ˈkwestʃən/,qu | es | tion,,consonant suffix suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,queue,/kjuː/,qu | e | ue,,consonant vowel vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,quick,/kwɪk/,qu | i | ck,/kw/ /ɪ/ /k/,consonant vowel consonant,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,high_risk_pattern_split,quickly,/ˈkwɪkli/,qu | i | ck | ly,/kw/ /ɪ/ /k/ /li/,consonant vowel consonant suffix,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,high_risk_pattern_split,quiet,/ˈkwaɪət/,qu | i | e | t,/kw/ /aɪ/ /ə/ /t/,consonant vowel vowel consonant,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,high_risk_pattern_split,quietly,/ˈkwaɪətli/,qu | i | e | t | ly,/kw/ /aɪ/ /ə/ /t/ /li/,consonant vowel vowel consonant suffix,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,high_risk_pattern_split,quite,/kwaɪt/,qu | i | t | e,/kw/ /aɪ/ /t/ ,consonant vowel consonant silent,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,risky_word_without_sounds,rainstorm,/ˈreɪnstɔːrm/,r | ai | n | st | or | m,,consonant vowel_team consonant consonant r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,reach,/ritʃ/,r | ea | ch,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,read,/rɛd/,r | ea | d,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,read a book,/rɛdəbʊk/,read a book,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,reading,/ˈrɛdɪŋ/,r | ea | d | ing,,consonant vowel_team consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,ready,/ˈrɛdi/,r | ea | d | y,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,real,/ril/,r | ea | l,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,realize,/ˈriːəlaɪz/,r | e | al | i | z | e,/r/ /iː/ /əl/ /aɪ/ /z/ ,consonant vowel vowel vowel consonant silent,高风险拼读组合 `ea` 没有作为整体分块。
+WARN,high_risk_pattern_split,really,/ˈriːəli/,r | e | a | ll | y,/r/ /iː/ /ə/ /l/ /i/,consonant vowel vowel consonant vowel,高风险拼读组合 `ea` 没有作为整体分块。
+WARN,risky_word_without_sounds,reason,/ˈriːzn/,r | ea | s | o | n,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,receive,/rɪˈsiːv/,r | e | c | e | i | v | e,,consonant vowel consonant vowel vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,recent,/ˈriːsnt/,r | e | c | e | n | t,,consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,rectangle,/ˈrektæŋɡl/,r | e | c | t | a | ng | le,,consonant vowel consonant consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,rectangle,/ˈrektæŋɡl/,r | e | c | t | a | ng | le,,consonant vowel consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,remember,/rɪˈmembə/,r | e | m | e | m | b | er,/r/ /ɪ/ /m/ /e/ /m/ /b/ /ə/,consonant vowel consonant vowel consonant consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,high_risk_pattern_split,require,/rɪˈkwaɪə/,r | e | qu | ire,/r/ /ɪ/ /kw/ /aɪə/,consonant vowel consonant vowel_team,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,weak_visual_split,responsible,/rɪˈspɒnsəbl/,r | es | p | o | n | s | i | bl | e,,consonant suffix consonant vowel consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,rewarding,/rɪˈwɔːdɪŋ/,r | ew | ar | d | ing,,consonant vowel_team r_controlled consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,rhino,/ˈraɪnəʊ/,r | h | i | n | o,,consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,ridge,/rɪdʒ/,r | i | d | g | e,,consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,ropeway,/ˈrəʊpweɪ/,r | o | p | ew | ay,,consonant vowel consonant vowel_team vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,rough,/rʌf/,r | ough,,consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,safety,/ˈseɪfti/,s | a | f | e | t | y,,consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,sandwich,/ˈsænwɪtʃ/,s | a | n | d | w | i | ch,,consonant vowel consonant consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,sandwich,/ˈsænwɪtʃ/,s | a | n | d | w | i | ch,,consonant vowel consonant consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,Santa,/ˈsænə/,S | a | n | t | a,,consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,Saturday,/ˈsætədeɪ/,S | a | t | ur | d | ay,,consonant vowel consonant r_controlled consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,scared,/skeəd/,sc | are | d,/sk/ /eə/ /d/,consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,high_risk_pattern_split,schoolwork,/ˈskuːlwɜːk/,sc | h | oo | l | w | or | k,,consonant consonant vowel_team consonant consonant r_controlled consonant,高风险拼读组合 `ch` 没有作为整体分块。
+WARN,risky_word_without_sounds,schoolwork,/ˈskuːlwɜːk/,sc | h | oo | l | w | or | k,,consonant consonant vowel_team consonant consonant r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,season,/ˈsiːzn/,s | ea | s | o | n,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,seed,/siːd/,s | ee | d,/s/ /iː/ /d/,consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,high_risk_pattern_split,September,/sepˈtembə/,S | e | p | t | e | m | b | er,/s/ /e/ /p/ /t/ /e/ /m/ /b/ /ə/,consonant vowel consonant consonant vowel consonant consonant r_controlled,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,risky_word_without_sounds,serious,/ˈsɪəiəs/,s | er | i | ou | s,,consonant r_controlled vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,seriously,/ˈsɪəiəsli/,s | er | i | ou | sl | y,,consonant r_controlled vowel vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,seven,/ˈsevn/,s | e | v | e | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,seventeen,/ˌsevnˈtiːn/,s | e | v | e | n | t | ee | n,,consonant vowel consonant vowel consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,seventeen,/ˌsevnˈtiːn/,s | e | v | e | n | t | ee | n,,consonant vowel consonant vowel consonant consonant vowel_team consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,seventh,/ˈsevnθ/,s | e | v | e | n | th,,consonant vowel consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,seventh,/ˈsevnθ/,s | e | v | e | n | th,,consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,seventy,/ˈsevnti/,s | e | v | e | n | t | y,,consonant vowel consonant vowel consonant consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,sharpener,/ˈʃɑːpnə/,sh | ar | p | e | n | er,,consonant r_controlled consonant vowel consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,shepherd,/ˈʃepəd/,sh | e | p | h | er | d,/ʃ/ /e/ /p/  /ə/ /d/,consonant vowel consonant silent vowel consonant,高风险拼读组合 `ph` 没有作为整体分块。
+WARN,risky_word_without_sounds,should,/ʃəd/,sh | ou | l | d,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,shoulder,/ˈʃəʊldə/,sh | o | u | l | d | er,/ʃ/ /ə/ /ʊ/ /l/ /d/ /ə/,consonant vowel vowel consonant consonant r_controlled,高风险拼读组合 `ou` 没有作为整体分块。
+WARN,weak_visual_split,similar,/ˈsɪmələ/,s | i | m | i | l | ar,,consonant vowel consonant vowel consonant r_controlled,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,Singapore,/ˌsiŋgəˈpɔː/,S | ing | a | p | or | e,,consonant suffix vowel consonant r_controlled vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,single,/ˈsɪŋɡl/,s | ing | le,,consonant suffix vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,situation,/ˌsɪtʃuˈeɪʃn/,s | i | t | u | a | tion,,consonant vowel consonant vowel vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,situation,/ˌsɪtʃuˈeɪʃn/,s | i | t | u | a | tion,,consonant vowel consonant vowel vowel suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,socks,/sɑks/,s | o | ck | s,,consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,somebody,/ˈsʌmbədi/,s | o | m | e | b | o | d | y,,consonant vowel consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,someone,/ˈsʌmwʌn/,s | o | m | e | o | n | e,,consonant vowel consonant vowel vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,something,/ˈsʌmθɪŋ/,s | o | m | e | th | ing,,consonant vowel consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,sometime,/ˈsʌmtaɪm/,s | o | m | e | t | i | m | e,,consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,sometimes,/ˈsʌmtaɪmz/,s | o | m | e | t | i | m | es,,consonant vowel consonant vowel consonant vowel consonant suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,sour,/ˈsaʊə/,s | ou | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,spaceship,/ˈspeɪsʃɪp/,sp | a | c | es | h | i | p,,consonant vowel consonant suffix consonant vowel consonant,高风险拼读组合 `sh` 没有作为整体分块。
+WARN,risky_word_without_sounds,spaceship,/ˈspeɪsʃɪp/,sp | a | c | es | h | i | p,,consonant vowel consonant suffix consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,speed,/spiːd/,sp | ee | d,/sp/ /iː/ /d/,consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,high_risk_pattern_split,squirrel,/ˈskwɪəəl/,squ | ir | r | e | l,,consonant r_controlled consonant vowel consonant,高风险拼读组合 `ui` 没有作为整体分块。
+WARN,risky_word_without_sounds,squirrel,/ˈskwɪəəl/,squ | ir | r | e | l,,consonant r_controlled consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Stonehenge,/stəunˈhendʒ/,St | o | n | e | h | e | ng | e,,consonant vowel consonant vowel consonant vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Stonehenge,/stəunˈhendʒ/,St | o | n | e | h | e | ng | e,,consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,storybook,/ˈstɔːribʊk/,st | or | y | b | oo | k,,consonant r_controlled consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,straight,/streɪt/,str | ai | g | h | t,,consonant vowel_team consonant consonant consonant,高风险拼读组合 `igh` 没有作为整体分块。
+WARN,risky_word_without_sounds,straight,/streɪt/,str | ai | g | h | t,,consonant vowel_team consonant consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,strange,/streɪndʒ/,str | a | n | g | e,/str/ /eɪ/ /n/ /dʒ/ ,consonant vowel consonant consonant silent,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,high_risk_pattern_split,stranger,/ˈstreɪndʒə/,str | a | n | g | er,/str/ /eɪ/ /n/ /dʒ/ /ə/,consonant vowel consonant consonant r_controlled,高风险拼读组合 `ng` 没有作为整体分块。
+WARN,risky_word_without_sounds,stronger,/strɒŋɡə/,str | o | ng | er,,consonant vowel consonant r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,student,/ˈstjuːdnt/,st | u | d | e | n | t,,consonant vowel consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,ed_not_grouped,succeed,/səkˈsiːd/,s | u | cc | ee | d,/s/ /ə/ /ks/ /iː/ /d/,consonant vowel consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,suggestion,/səˈdʒestʃən/,s | u | gg | es | tion,,consonant vowel consonant suffix suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,sure,/ʃʊr/,sure,,suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Sydney,/ˈsɪdni/,S | y | d | n | e | y,,consonant consonant consonant consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,symbol,/ˈsɪmbl/,s | y | mb | o | l,,consonant consonant consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,T-shirt,/ˈtiːʃɜːt/,T-shirt,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,takeaway,/ˈteɪkəweɪ/,t | a | k | ea | w | ay,,consonant vowel consonant vowel_team consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,teamwork,/ˈtiːmwɜːk/,t | ea | m | w | or | k,,consonant vowel_team consonant consonant r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,television,/ˈtelɪvɪʒn/,t | e | le | v | i | sion,,consonant vowel vowel consonant vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,temperature,/ˈtemprətʃə/,t | e | m | p | er | a | ture,,consonant vowel consonant consonant r_controlled vowel suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,thank,/θæŋk/,th | a | n | k,,consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,thankful,/ˈθæŋkfl/,th | a | n | k | ful,,consonant vowel consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,thanks,/θæŋks/,th | a | n | k | s,,consonant vowel consonant consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Thanksgiving,/ˌθæŋksˈɡɪvɪŋ/,Th | a | n | k | s | g | i | v | ing,,consonant vowel consonant consonant consonant consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,Thanksgiving,/ˌθæŋksˈɡɪvɪŋ/,Th | a | n | k | s | g | i | v | ing,,consonant vowel consonant consonant consonant consonant vowel consonant suffix,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,the Olympics,/ðɪəʊˈlɪmpɪks/,the Olympics,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,high_risk_pattern_split,theater,/ˈθɪətə/,th | e | a | t | er,/θ/ /ɪ/ /ə/ /t/ /ə/,consonant vowel vowel consonant r_controlled,高风险拼读组合 `ea` 没有作为整体分块。
+WARN,risky_word_without_sounds,theatre,/ˈθɪətə/,th | ea | tr | e,,consonant vowel_team consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,their,/ðeə/,th | e | ir,,consonant vowel r_controlled,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,theirs,/ðeəz/,th | e | ir | s,,consonant vowel r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,there,/ðeə/,th | er | e,,consonant r_controlled vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,there's,/ðɛrz/,there's,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,they,/ðeɪ/,th | e | y,,consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,think,/θɪŋk/,th | i | n | k,,consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,thirty-three,/ˈθɜːtɪθrɪ/,thirty-three,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,this afternoon,/ðɪsˌɑːftəˈnuːn/,this afternoon,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Thomas,/ˈtɔməs/,Th | o | m | a | s,,consonant vowel consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,though,/ðəʊ/,th | ough,,consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,thousand,/ˈθaʊznd/,th | ou | s | a | n | d,,consonant vowel_team consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,through,/θruː/,th | r | ough,,consonant consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ed_not_grouped,tired,/ˈtaɪəd/,t | ire | d,/t/ /aɪə/ /d/,consonant vowel_team consonant,`-ed` 词尾没有作为整体分块。
+WARN,weak_visual_split,Tokyo,/ˈtəukjəu/,T | o | k | y | o,,consonant vowel consonant consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,tongue,/tʌŋ/,t | o | ng | ue,,consonant vowel consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,tortoise,/ˈtɔːtəs/,t | or | t | oi | s | e,,consonant r_controlled consonant vowel_team consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,tour,/tʊə/,t | ou | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,tourist,/ˈtʊəɪst/,t | ou | r | i | st,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,toward(s),/təˈwɔːd(z)/,toward(s),,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,towards,/təˈwɔːdz/,t | ow | ar | d | s,,consonant vowel_team r_controlled consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,traffic light,/ˈtræfɪklaɪt/,traffic light,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,triangle,/ˈtraɪæŋɡl/,tr | i | a | ng | le,,consonant vowel vowel consonant vowel,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,truthful,/ˈtruːθfl/,tr | u | th | ful,,consonant vowel consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,typical,/ˈtɪpɪkl/,t | y | p | i | c | al,,consonant consonant consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,high_risk_pattern_split,umbrella,/ʌmˈbrelə/,u | m | br | e | ll | a,/ʌ/ /m/ /br/ /e/ /l/ /ə/,vowel consonant consonant vowel consonant vowel,高风险拼读组合 `mb` 没有作为整体分块。
+WARN,weak_visual_split,uncomfortable,/ʌnˈkʌmftəbl/,u | n | c | o | m | f | or | t | a | bl | e,,vowel consonant consonant vowel consonant consonant r_controlled consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,unusual,/ʌnˈjuːʒuəl/,u | n | u | s | u | al,,vowel consonant vowel consonant vowel vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,various,/ˈveəiəs/,v | ar | i | ou | s,,consonant r_controlled vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,vegetable,/ˈvedʒtəbl/,v | e | g | e | t | a | bl | e,,consonant vowel consonant vowel consonant vowel consonant vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,video,/ˈvɪdiəʊ/,v | i | d | e | o,,consonant vowel consonant vowel vowel,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,warmth,/wɔːmθ/,w | ar | m | th,,consonant r_controlled consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,wash,/wɒʃ/,w | a | sh,,consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Washington,/ˈwɒʃɪŋtən/,W | a | sh | ing | t | o | n,,consonant vowel consonant suffix consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,washroom,/ˈwɒʃruːm/,w | a | sh | r | oo | m,,consonant vowel consonant consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,watch,/wɒtʃ/,w | a | tch,,consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,Wednesday,/ˈwenzdeɪ/,W | ed | n | es | d | ay,,consonant suffix consonant suffix consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,weigh,/weɪ/,w | e | igh,,consonant vowel vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,weight,/weɪt/,w | e | igh | t,,consonant vowel vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,went fishing,/wɛntˈfɪʃɪŋ/,went fishing,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ing_not_grouped,went fishing,/wɛntˈfɪʃɪŋ/,went fishing,,word,`-ing` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,went hiking,/wɛntˈhaɪkɪŋ/,went hiking,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ing_not_grouped,went hiking,/wɛntˈhaɪkɪŋ/,went hiking,,word,`-ing` 词尾没有作为整体分块。
+WARN,risky_word_without_sounds,went ice-skating,/wɛntice-skating/,went ice-skating,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,went skiing,/wɛntskiɪŋ/,went skiing,,word,包含高风险拼读组合，但没有可靠分块音标。
+WARN,ing_not_grouped,went skiing,/wɛntskiɪŋ/,went skiing,,word,`-ing` 词尾没有作为整体分块。
+WARN,weak_visual_split,woman,/ˈwʊmən/,w | o | m | a | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,weak_visual_split,women,/ˈwɪmɪn/,w | o | m | e | n,,consonant vowel consonant vowel consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,wooden,/ˈwʊdn/,w | oo | d | e | n,,consonant vowel_team consonant vowel consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,workday,/ˈwɜːkdeɪ/,w | or | k | d | ay,,consonant r_controlled consonant consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,worth,/wɜːθ/,w | or | th,,consonant r_controlled consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,would,/wʊd/,w | ou | l | d,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,yeah,/jeə/,y | ea | h,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,you,/ju/,y | ou,,consonant vowel_team,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,your,/jɔː/,y | ou | r,,consonant vowel_team consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,yours,/jɔːz/,y | ou | r | s,,consonant vowel_team consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,risky_word_without_sounds,yourself,/jɔːˈself/,y | ou | r | s | e | l | f,,consonant vowel_team consonant consonant vowel consonant consonant,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,yourself,/jɔːˈself/,y | ou | r | s | e | l | f,,consonant vowel_team consonant consonant vowel consonant consonant,连续单字母视觉拆分过长，教学价值低。
+WARN,risky_word_without_sounds,yourselves,/jəˈselvz/,y | ou | r | s | e | l | v | es,,consonant vowel_team consonant consonant vowel consonant consonant suffix,包含高风险拼读组合，但没有可靠分块音标。
+WARN,weak_visual_split,yourselves,/jəˈselvz/,y | ou | r | s | e | l | v | es,,consonant vowel_team consonant consonant vowel consonant consonant suffix,连续单字母视觉拆分过长，教学价值低。

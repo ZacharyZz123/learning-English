@@ -1,0 +1,164 @@
+{
+  "total": 2519,
+  "override": 25,
+  "auto": 1804,
+  "whole_only": 690,
+  "samples": {
+    "box": {
+      "phonetic": "/bɒks/",
+      "blocks": [
+        "b",
+        "o",
+        "x"
+      ],
+      "sounds": [
+        "/b/",
+        "/ɒ/",
+        "/ks/"
+      ],
+      "types": [
+        "consonant",
+        "vowel",
+        "consonant"
+      ]
+    },
+    "require": {
+      "phonetic": "/rɪˈkwaɪə/",
+      "blocks": [
+        "r",
+        "e",
+        "qu",
+        "ire"
+      ],
+      "sounds": [
+        "/r/",
+        "/ɪ/",
+        "/kw/",
+        "/aɪə/"
+      ],
+      "types": [
+        "consonant",
+        "vowel",
+        "consonant",
+        "vowel_team"
+      ]
+    },
+    "achievement": {
+      "phonetic": "/əˈtʃiːvmənt/",
+      "blocks": [
+        "a",
+        "ch",
+        "ie",
+        "v",
+        "e",
+        "ment"
+      ],
+      "sounds": [
+        "/ə/",
+        "/tʃ/",
+        "/iː/",
+        "/v/",
+        "",
+        "/mənt/"
+      ],
+      "types": [
+        "vowel",
+        "consonant",
+        "vowel_team",
+        "consonant",
+        "silent",
+        "suffix"
+      ]
+    },
+    "agreement": {
+      "phonetic": "/əˈɡriːmənt/",
+      "blocks": [
+        "a",
+        "gree",
+        "ment"
+      ],
+      "sounds": [
+        "/ə/",
+        "/griː/",
+        "/mənt/"
+      ],
+      "types": [
+        "vowel",
+        "vowel_team",
+        "suffix"
+      ]
+    },
+    "action": {
+      "phonetic": "/ˈækʃn/",
+      "blocks": [
+        "ac",
+        "tion"
+      ],
+      "sounds": [
+        "/æk/",
+        "/ʃn/"
+      ],
+      "types": [
+        "consonant",
+        "suffix"
+      ]
+    },
+    "name": {
+      "phonetic": "/neɪm/",
+      "blocks": [
+        "n",
+        "a",
+        "m",
+        "e"
+      ],
+      "sounds": [
+        "/n/",
+        "/eɪ/",
+        "/m/",
+        ""
+      ],
+      "types": [
+        "consonant",
+        "vowel",
+        "consonant",
+        "silent"
+      ]
+    },
+    "fish": {
+      "phonetic": "/fɪʃ/",
+      "blocks": [
+        "f",
+        "i",
+        "sh"
+      ],
+      "sounds": [
+        "/f/",
+        "/ɪ/",
+        "/ʃ/"
+      ],
+      "types": [
+        "consonant",
+        "vowel",
+        "consonant"
+      ]
+    },
+    "night": {
+      "phonetic": "/naɪt/",
+      "blocks": [
+        "n",
+        "igh",
+        "t"
+      ],
+      "sounds": [
+        "/n/",
+        "/aɪ/",
+        "/t/"
+      ],
+      "types": [
+        "consonant",
+        "vowel_team",
+        "consonant"
+      ]
+    }
+  }
+}

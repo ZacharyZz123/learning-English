@@ -1,0 +1,132 @@
+{
+  "ability": {
+    "blocks": ["a", "bil", "i", "ty"],
+    "sounds": ["/ə/", "/bɪl/", "/ə/", "/ti/"],
+    "types": ["vowel", "consonant", "vowel", "vowel"]
+  },
+  "action": {
+    "blocks": ["ac", "tion"],
+    "sounds": ["/æk/", "/ʃn/"],
+    "types": ["consonant", "suffix"]
+  },
+  "activity": {
+    "blocks": ["ac", "tiv", "i", "ty"],
+    "sounds": ["/æk/", "/tɪv/", "/ɪ/", "/tɪ/"],
+    "types": ["consonant", "consonant", "vowel", "vowel"]
+  },
+  "achieve": {
+    "blocks": ["a", "ch", "ie", "v", "e"],
+    "sounds": ["/ə/", "/tʃ/", "/iː/", "/v/", ""],
+    "types": ["vowel", "consonant", "vowel_team", "consonant", "silent"]
+  },
+  "achievement": {
+    "blocks": ["a", "ch", "ie", "v", "e", "ment"],
+    "sounds": ["/ə/", "/tʃ/", "/iː/", "/v/", "", "/mənt/"],
+    "types": ["vowel", "consonant", "vowel_team", "consonant", "silent", "suffix"]
+  },
+  "agree": {
+    "blocks": ["a", "gree"],
+    "sounds": ["/ə/", "/griː/"],
+    "types": ["vowel", "vowel_team"]
+  },
+  "agreement": {
+    "blocks": ["a", "gree", "ment"],
+    "sounds": ["/ə/", "/griː/", "/mənt/"],
+    "types": ["vowel", "vowel_team", "suffix"]
+  },
+  "against": {
+    "blocks": ["a", "gainst"],
+    "sounds": ["/ə/", "/genst/"],
+    "types": ["vowel", "consonant"]
+  },
+  "abroad": {
+    "blocks": ["a", "broad"],
+    "sounds": ["/ə/", "/brɔːd/"],
+    "types": ["vowel", "vowel_team"]
+  },
+  "about": {
+    "blocks": ["a", "bout"],
+    "sounds": ["/ə/", "/baʊt/"],
+    "types": ["vowel", "vowel_team"]
+  },
+  "above": {
+    "blocks": ["a", "bove"],
+    "sounds": ["/ə/", "/bʌv/"],
+    "types": ["vowel", "consonant"]
+  },
+  "afraid": {
+    "blocks": ["a", "fraid"],
+    "sounds": ["/ə/", "/freɪd/"],
+    "types": ["vowel", "vowel_team"]
+  },
+  "around": {
+    "blocks": ["a", "round"],
+    "sounds": ["/ə/", "/raʊnd/"],
+    "types": ["vowel", "vowel_team"]
+  },
+  "alive": {
+    "blocks": ["a", "live"],
+    "sounds": ["/ə/", "/laɪv/"],
+    "types": ["vowel", "vowel_team"]
+  },
+  "box": {
+    "blocks": ["b", "o", "x"],
+    "sounds": ["/b/", "/ɒ/", "/ks/"],
+    "types": ["consonant", "vowel", "consonant"]
+  },
+  "fruit": {
+    "blocks": ["fr", "ui", "t"],
+    "sounds": ["/fr/", "/uː/", "/t/"],
+    "types": ["consonant", "vowel_team", "consonant"]
+  },
+  "thought": {
+    "blocks": ["th", "ough", "t"],
+    "sounds": ["/θ/", "/ɔː/", "/t/"],
+    "types": ["consonant", "vowel_team", "consonant"]
+  },
+  "shepherd": {
+    "blocks": ["sh", "e", "p", "h", "er", "d"],
+    "sounds": ["/ʃ/", "/e/", "/p/", "", "/ə/", "/d/"],
+    "types": ["consonant", "vowel", "consonant", "silent", "vowel", "consonant"]
+  },
+  "interested": {
+    "blocks": ["in", "ter", "est", "ed"],
+    "sounds": ["/ɪn/", "/trə/", "/st/", "/ɪd/"],
+    "types": ["vowel", "consonant", "vowel", "suffix"]
+  },
+  "gradually": {
+    "blocks": ["gr", "a", "du", "al", "ly"],
+    "sounds": ["/gr/", "/æ/", "/dʒu/", "/ə/", "/li/"],
+    "types": ["consonant", "vowel", "consonant", "vowel", "suffix"]
+  },
+  "i'll": {
+    "blocks": ["I", "'ll"],
+    "sounds": ["/aɪ/", "/l/"],
+    "types": ["vowel", "consonant"]
+  },
+  "magazine": {
+    "blocks": ["m", "a", "g", "a", "zine"],
+    "sounds": ["/m/", "/æ/", "/g/", "/ə/", "/ziːn/"],
+    "types": ["consonant", "vowel", "consonant", "vowel", "vowel_team"]
+  },
+  "require": {
+    "blocks": ["r", "e", "qu", "ire"],
+    "sounds": ["/r/", "/ɪ/", "/kw/", "/aɪə/"],
+    "types": ["consonant", "vowel", "consonant", "vowel_team"]
+  },
+  "sketching": {
+    "blocks": ["sk", "e", "tch", "ing"],
+    "sounds": ["/sk/", "/e/", "/tʃ/", "/ɪŋ/"],
+    "types": ["consonant", "vowel", "consonant", "suffix"]
+  },
+  "x-ray": {
+    "blocks": ["x", "ray"],
+    "sounds": ["/eks/", "/reɪ/"],
+    "types": ["consonant", "vowel_team"]
+  },
+  "o'clock": {
+    "blocks": ["o", "clock"],
+    "sounds": ["/ə/", "/klɒk/"],
+    "types": ["vowel", "consonant"]
+  }
+}
