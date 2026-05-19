@@ -21,10 +21,14 @@ import java.util.Locale
 import java.util.concurrent.ConcurrentHashMap
 
 class WordSpeaker(context: Context) : TextToSpeech.OnInitListener {
+    private companion object {
+        const val EMPTY_AUDIO_URL = "__EMPTY_AUDIO_URL__"
+    }
+
     private val appContext = context.applicationContext
     private val textToSpeech = TextToSpeech(appContext, this)
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
-    private val audioUrlCache = ConcurrentHashMap<String, String?>()
+    private val audioUrlCache = ConcurrentHashMap<String, String>()
 
     private var isTtsReady = false
     private var mediaPlayer: MediaPlayer? = null
@@ -149,8 +153,9 @@ class WordSpeaker(context: Context) : TextToSpeech.OnInitListener {
 
     private fun fetchPronunciationAudioUrl(word: String): String? {
         val cacheKey = word.lowercase(Locale.US)
-        if (audioUrlCache.containsKey(cacheKey)) {
-            return audioUrlCache[cacheKey]
+        val cached = audioUrlCache[cacheKey]
+        if (cached != null) {
+            return cached.takeUnless { it == EMPTY_AUDIO_URL }
         }
         val encodedWord = URLEncoder.encode(word, StandardCharsets.UTF_8.toString())
         val requestUrl = "https://api.dictionaryapi.dev/api/v2/entries/en/$encodedWord"
@@ -160,7 +165,7 @@ class WordSpeaker(context: Context) : TextToSpeech.OnInitListener {
     }
 
     private fun cacheAndReturn(cacheKey: String, audioUrl: String?): String? {
-        audioUrlCache[cacheKey] = audioUrl
+        audioUrlCache[cacheKey] = audioUrl ?: EMPTY_AUDIO_URL
         return audioUrl
     }
 

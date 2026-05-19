@@ -5,8 +5,14 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Text
+import androidx.compose.ui.text.font.FontWeight
+import com.xuexi.learningenglish.ui.theme.Honey
+import com.xuexi.learningenglish.ui.theme.Ink
+import com.xuexi.learningenglish.ui.theme.InkSoft
+import com.xuexi.learningenglish.ui.theme.PaperSoft
 
 @Composable
 fun SpeechRateSelector(
@@ -21,12 +27,24 @@ fun SpeechRateSelector(
         FilterChip(
             selected = speechRate == 0.5f,
             onClick = { onSpeechRateChange(0.5f) },
-            label = { Text("0.5x") }
+            colors = FilterChipDefaults.filterChipColors(
+                selectedContainerColor = Honey,
+                selectedLabelColor = Ink,
+                containerColor = PaperSoft,
+                labelColor = InkSoft
+            ),
+            label = { Text("0.5x", fontWeight = FontWeight.SemiBold) }
         )
         FilterChip(
             selected = speechRate == 1.0f,
             onClick = { onSpeechRateChange(1.0f) },
-            label = { Text("1x") }
+            colors = FilterChipDefaults.filterChipColors(
+                selectedContainerColor = Honey,
+                selectedLabelColor = Ink,
+                containerColor = PaperSoft,
+                labelColor = InkSoft
+            ),
+            label = { Text("1x", fontWeight = FontWeight.SemiBold) }
         )
     }
 }

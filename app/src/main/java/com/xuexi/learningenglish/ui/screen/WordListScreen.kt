@@ -1,6 +1,7 @@
 package com.xuexi.learningenglish.ui.screen
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,22 +18,32 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material3.AssistChip
+import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.xuexi.learningenglish.data.model.WordCard
+import com.xuexi.learningenglish.ui.component.PhonicsBlockView
 import com.xuexi.learningenglish.ui.component.SpeechRateSelector
+import com.xuexi.learningenglish.ui.theme.Honey
+import com.xuexi.learningenglish.ui.theme.Ink
+import com.xuexi.learningenglish.ui.theme.InkSoft
+import com.xuexi.learningenglish.ui.theme.PaperBorder
+import com.xuexi.learningenglish.ui.theme.PaperSoft
+import com.xuexi.learningenglish.ui.theme.paperBackgroundBrush
 import com.xuexi.learningenglish.ui.viewmodel.WordUiState
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -49,7 +60,12 @@ fun WordListScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("单词") },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = PaperSoft,
+                    titleContentColor = Ink,
+                    navigationIconContentColor = Ink
+                ),
+                title = { Text("单词库") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "返回")
@@ -62,8 +78,13 @@ fun WordListScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
+                .background(paperBackgroundBrush())
                 .padding(16.dp)
         ) {
+            WordBankSummary(
+                totalWordCount = uiState.totalWordCount
+            )
+            Spacer(modifier = Modifier.height(12.dp))
             OutlinedTextField(
                 value = uiState.query,
                 onValueChange = onQueryChange,
@@ -83,7 +104,7 @@ fun WordListScreen(
                     horizontalArrangement = Arrangement.Center,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    CircularProgressIndicator()
+                    CircularProgressIndicator(color = Ink)
                 }
             } else {
                 LazyColumn(verticalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -101,27 +122,72 @@ fun WordListScreen(
 }
 
 @Composable
+private fun WordBankSummary(
+    totalWordCount: Int
+) {
+    SummaryCard(
+        title = "当前词库数量",
+        value = "$totalWordCount 个",
+        modifier = Modifier.fillMaxWidth()
+    )
+}
+
+@Composable
+private fun SummaryCard(
+    title: String,
+    value: String,
+    modifier: Modifier = Modifier,
+    helper: String? = null
+) {
+    Column(
+        modifier = modifier
+            .background(PaperSoft, RoundedCornerShape(16.dp))
+            .border(1.dp, PaperBorder, RoundedCornerShape(16.dp))
+            .padding(14.dp),
+        verticalArrangement = Arrangement.spacedBy(4.dp)
+    ) {
+        Text(text = title, color = InkSoft, fontSize = 12.sp)
+        Text(text = value, color = Ink, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+        helper?.let {
+            Text(text = it, color = InkSoft, fontSize = 12.sp)
+        }
+    }
+}
+
+@Composable
 private fun WordRow(card: WordCard, onClick: () -> Unit, onSpeakWord: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .background(MaterialTheme.colorScheme.surfaceVariant, RoundedCornerShape(18.dp))
+            .background(PaperSoft, RoundedCornerShape(18.dp))
+            .border(1.dp, PaperBorder, RoundedCornerShape(18.dp))
             .clickable(onClick = onClick)
-            .padding(16.dp)
+            .padding(14.dp)
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(text = card.word.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-            Spacer(modifier = Modifier.weight(1f))
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Column(modifier = Modifier.weight(1f)) {
+                PhonicsBlockView(word = card.word)
+            }
             IconButton(onClick = onSpeakWord) {
-                Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "单词发音")
+                Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "单词发音", tint = Ink)
             }
             card.progress?.let {
-                AssistChip(onClick = {}, label = { Text(it.status) })
+                AssistChip(
+                    onClick = {},
+                    colors = AssistChipDefaults.assistChipColors(
+                        containerColor = Honey.copy(alpha = 0.22f),
+                        labelColor = Ink
+                    ),
+                    label = { Text(it.status) }
+                )
             }
         }
+        Spacer(modifier = Modifier.height(8.dp))
+        Text(text = card.word.phonetic, color = Ink, fontWeight = FontWeight.SemiBold)
         Spacer(modifier = Modifier.height(4.dp))
-        Text(text = card.word.phonetic)
-        Spacer(modifier = Modifier.height(4.dp))
-        Text(text = card.word.meaning)
+        Text(text = card.word.meaning, color = InkSoft)
     }
 }

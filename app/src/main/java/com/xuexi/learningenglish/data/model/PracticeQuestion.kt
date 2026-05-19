@@ -6,13 +6,31 @@ enum class PracticeQuestionType {
 }
 
 data class PracticeQuestion(
+    val id: String,
     val word: Word,
     val type: PracticeQuestionType,
     val prompt: String,
     val clue: String,
-    val expectedAnswer: String
+    val expectedAnswer: String,
+    val source: PracticeQuestionSource = PracticeQuestionSource.NORMAL
 ) {
     fun isCorrect(answer: String): Boolean {
         return answer.trim().equals(expectedAnswer.trim(), ignoreCase = true)
     }
+}
+
+enum class PracticeQuestionSource {
+    NORMAL,
+    WRONG_RETRY
+}
+
+data class PracticeAnswerRecord(
+    val questionId: String,
+    val userAnswer: String,
+    val isCorrect: Boolean
+)
+
+enum class PracticeSessionMode {
+    DAILY,
+    REVIEW
 }

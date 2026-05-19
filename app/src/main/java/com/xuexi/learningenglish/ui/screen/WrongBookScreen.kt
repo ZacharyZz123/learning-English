@@ -1,6 +1,7 @@
 package com.xuexi.learningenglish.ui.screen
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -19,16 +20,25 @@ import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.xuexi.learningenglish.data.model.WordCard
+import com.xuexi.learningenglish.ui.component.PhonicsBlockView
 import com.xuexi.learningenglish.ui.component.SpeechRateSelector
+import com.xuexi.learningenglish.ui.theme.Honey
+import com.xuexi.learningenglish.ui.theme.Ink
+import com.xuexi.learningenglish.ui.theme.InkSoft
+import com.xuexi.learningenglish.ui.theme.PaperBorder
+import com.xuexi.learningenglish.ui.theme.PaperSoft
+import com.xuexi.learningenglish.ui.theme.paperBackgroundBrush
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -43,6 +53,11 @@ fun WrongBookScreen(
     Scaffold(
         topBar = {
             TopAppBar(
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = PaperSoft,
+                    titleContentColor = Ink,
+                    navigationIconContentColor = Ink
+                ),
                 title = { Text("错题本") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
@@ -57,12 +72,13 @@ fun WrongBookScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(padding)
-                    .padding(20.dp),
+                    .background(paperBackgroundBrush())
+                    .padding(16.dp),
                 verticalArrangement = Arrangement.Center
             ) {
-                Text(text = "当前没有错词", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text(text = "当前没有错词", color = Ink, fontWeight = FontWeight.Bold)
                 Spacer(modifier = Modifier.height(8.dp))
-                Text(text = "答错的单词会自动进来，并优先混入每日学习。")
+                Text(text = "答错的单词会自动进来，并优先混入每日学习。", color = InkSoft)
                 Spacer(modifier = Modifier.height(12.dp))
                 SpeechRateSelector(
                     speechRate = speechRate,
@@ -74,6 +90,7 @@ fun WrongBookScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(padding)
+                    .background(paperBackgroundBrush())
                     .padding(16.dp)
             ) {
                 SpeechRateSelector(
@@ -86,26 +103,35 @@ fun WrongBookScreen(
                         Column(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .background(MaterialTheme.colorScheme.surfaceVariant, RoundedCornerShape(18.dp))
+                                .background(PaperSoft, RoundedCornerShape(18.dp))
+                                .border(1.dp, PaperBorder, RoundedCornerShape(18.dp))
                                 .clickable { onOpenWord(card.word.word) }
-                                .padding(16.dp)
+                                .padding(14.dp)
                         ) {
-                            Row {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Column(modifier = Modifier.weight(1f)) {
+                                    PhonicsBlockView(word = card.word)
+                                }
+                                IconButton(onClick = { onSpeakWord(card.word.word) }) {
+                                    Icon(
+                                        Icons.AutoMirrored.Filled.VolumeUp,
+                                        contentDescription = "单词发音",
+                                        tint = Ink
+                                    )
+                                }
                                 Text(
-                                    text = card.word.word,
-                                    style = MaterialTheme.typography.titleMedium,
+                                    text = "${card.progress?.practiceCorrectDays ?: 0}/4",
+                                    color = Honey,
                                     fontWeight = FontWeight.Bold
                                 )
-                                Spacer(modifier = Modifier.weight(1f))
-                                IconButton(onClick = { onSpeakWord(card.word.word) }) {
-                                    Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "单词发音")
-                                }
-                                Text(text = "${card.progress?.practiceCorrectDays ?: 0}/4")
                             }
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text(text = card.word.phonetic, color = Ink, fontWeight = FontWeight.SemiBold)
                             Spacer(modifier = Modifier.height(4.dp))
-                            Text(text = card.word.phonetic)
-                            Spacer(modifier = Modifier.height(4.dp))
-                            Text(text = card.word.meaning)
+                            Text(text = card.word.meaning, color = InkSoft)
                         }
                     }
                 }

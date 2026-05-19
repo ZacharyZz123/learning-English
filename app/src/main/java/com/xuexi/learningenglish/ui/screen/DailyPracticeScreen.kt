@@ -1,9 +1,11 @@
 package com.xuexi.learningenglish.ui.screen
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -14,6 +16,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -24,6 +27,7 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -32,30 +36,40 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.xuexi.learningenglish.data.model.PracticeAnswerRecord
 import com.xuexi.learningenglish.data.model.PracticeQuestion
+import com.xuexi.learningenglish.data.model.PracticeQuestionSource
+import com.xuexi.learningenglish.data.model.PracticeSessionMode
 import com.xuexi.learningenglish.ui.component.SpeechRateSelector
-import com.xuexi.learningenglish.ui.theme.BlueEnd
-import com.xuexi.learningenglish.ui.theme.BlueStart
-import com.xuexi.learningenglish.ui.theme.Mist
+import com.xuexi.learningenglish.ui.theme.Honey
+import com.xuexi.learningenglish.ui.theme.Ink
+import com.xuexi.learningenglish.ui.theme.InkSoft
+import com.xuexi.learningenglish.ui.theme.PaperBorder
+import com.xuexi.learningenglish.ui.theme.PaperSoft
+import com.xuexi.learningenglish.ui.theme.paperBackgroundBrush
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DailyPracticeScreen(
     questions: List<PracticeQuestion>,
+    mode: PracticeSessionMode,
     currentIndex: Int,
     currentQuestion: PracticeQuestion?,
     correctCount: Int,
     wrongCount: Int,
+    answerRecords: Map<String, PracticeAnswerRecord>,
+    previewVisible: Boolean,
     speechRate: Float,
     onSpeechRateChange: (Float) -> Unit,
     onSpeakWord: (String) -> Unit,
-    onSubmitAnswer: (Boolean) -> Unit,
+    onSubmitAnswer: (String, Boolean) -> Unit,
     onNextQuestion: () -> Unit,
+    onPreviousQuestion: () -> Unit,
+    onDismissPreview: () -> Unit,
     onFinish: () -> Unit,
     onBack: () -> Unit
 ) {
@@ -64,15 +78,23 @@ fun DailyPracticeScreen(
     var isCorrect by rememberSaveable(currentIndex) { mutableStateOf(false) }
 
     LaunchedEffect(currentIndex) {
-        answer = ""
-        submitted = false
-        isCorrect = false
+        val record = currentQuestion?.let { answerRecords[it.id] }
+        answer = record?.userAnswer.orEmpty()
+        submitted = record != null
+        isCorrect = record?.isCorrect == true
     }
+
+    val screenTitle = if (mode == PracticeSessionMode.REVIEW) "复习练习" else "今日练习"
 
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("今日练习") },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = PaperSoft,
+                    titleContentColor = Ink,
+                    navigationIconContentColor = Ink
+                ),
+                title = { Text(screenTitle) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "返回")
@@ -85,8 +107,8 @@ fun DailyPracticeScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .background(Brush.verticalGradient(listOf(BlueStart, BlueEnd)))
-                .padding(20.dp)
+                .background(paperBackgroundBrush())
+                .padding(horizontal = 16.dp, vertical = 12.dp)
         ) {
             when {
                 questions.isEmpty() -> {
@@ -94,7 +116,34 @@ fun DailyPracticeScreen(
                         modifier = Modifier.fillMaxSize(),
                         verticalArrangement = Arrangement.Center
                     ) {
-                        Text(text = "正在准备今日练习...", color = Mist, fontSize = 22.sp)
+                        Text(text = "正在准备今日练习...", color = InkSoft, fontSize = 18.sp)
+                    }
+                }
+
+                previewVisible -> {
+                    Column(
+                        modifier = Modifier.fillMaxSize(),
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        Text(text = screenTitle, color = Ink, fontSize = 26.sp, fontWeight = FontWeight.Bold)
+                        Spacer(modifier = Modifier.height(10.dp))
+                        Text(
+                            text = if (mode == PracticeSessionMode.REVIEW) {
+                                "本次最多复习 ${questions.size} 题，优先安排复习次数更少的已学单词。"
+                            } else {
+                                "本次共 ${questions.size} 题，包含今天学习内容和错题本复习。"
+                            },
+                            color = InkSoft,
+                            fontSize = 16.sp
+                        )
+                        Spacer(modifier = Modifier.height(18.dp))
+                        Button(
+                            onClick = onDismissPreview,
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = ButtonDefaults.buttonColors(containerColor = Ink, contentColor = Honey)
+                        ) {
+                            Text("开始答题")
+                        }
                     }
                 }
 
@@ -104,52 +153,78 @@ fun DailyPracticeScreen(
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Text(text = "今日练习完成", color = Mist, fontSize = 30.sp, fontWeight = FontWeight.Bold)
+                        Text(
+                            text = if (mode == PracticeSessionMode.REVIEW) "复习练习完成" else "今日练习完成",
+                            color = Ink,
+                            fontSize = 26.sp,
+                            fontWeight = FontWeight.Bold
+                        )
                         Spacer(modifier = Modifier.height(12.dp))
-                        Text(text = "答对 $correctCount 题，答错 $wrongCount 题", color = Mist.copy(alpha = 0.9f))
+                        Text(text = "答对 $correctCount 题，答错 $wrongCount 题", color = InkSoft)
+                        val wrongWords = questions
+                            .filter { answerRecords[it.id]?.isCorrect == false }
+                            .map { it.word.word }
+                            .distinct()
+                        if (wrongWords.isNotEmpty()) {
+                            Spacer(modifier = Modifier.height(18.dp))
+                            Text(text = "本次错词", color = Ink, fontWeight = FontWeight.SemiBold)
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text(text = wrongWords.joinToString("、"), color = InkSoft)
+                        }
                         Spacer(modifier = Modifier.height(24.dp))
-                        Button(onClick = onFinish) { Text("返回首页") }
+                        Button(
+                            onClick = onFinish,
+                            colors = ButtonDefaults.buttonColors(containerColor = Ink, contentColor = Honey)
+                        ) { Text("返回首页") }
                     }
                 }
 
                 else -> {
-                    Column {
+                    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                         Text(
                             text = "第 ${currentIndex + 1} / ${questions.size} 题",
-                            color = Mist,
-                            fontSize = 18.sp,
+                            color = Ink,
+                            fontSize = 16.sp,
                             fontWeight = FontWeight.SemiBold
                         )
-                        Spacer(modifier = Modifier.height(16.dp))
                         SpeechRateSelector(
                             speechRate = speechRate,
                             onSpeechRateChange = onSpeechRateChange
                         )
-                        Spacer(modifier = Modifier.height(12.dp))
                         Card(
-                            colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.12f)),
-                            modifier = Modifier.fillMaxWidth()
+                            colors = CardDefaults.cardColors(containerColor = PaperSoft),
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .border(1.dp, PaperBorder, RoundedCornerShape(18.dp)),
+                            shape = RoundedCornerShape(18.dp)
                         ) {
-                            Column(modifier = Modifier.padding(20.dp)) {
-                                Text(text = currentQuestion.prompt, color = Mist, fontSize = 18.sp)
-                                Spacer(modifier = Modifier.height(10.dp))
+                            Column(modifier = Modifier.padding(16.dp)) {
+                                Text(
+                                    text = if (currentQuestion.source == PracticeQuestionSource.WRONG_RETRY) {
+                                        "错题再练"
+                                    } else {
+                                        currentQuestion.prompt
+                                    },
+                                    color = InkSoft,
+                                    fontSize = 16.sp
+                                )
+                                Spacer(modifier = Modifier.height(8.dp))
                                 Text(
                                     text = currentQuestion.clue,
-                                    color = Color.White,
-                                    fontSize = 28.sp,
+                                    color = Ink,
+                                    fontSize = 24.sp,
                                     fontWeight = FontWeight.Bold
                                 )
-                                Spacer(modifier = Modifier.height(12.dp))
+                                Spacer(modifier = Modifier.height(8.dp))
                                 IconButton(onClick = { onSpeakWord(currentQuestion.word.word) }) {
                                     Icon(
                                         imageVector = Icons.AutoMirrored.Filled.VolumeUp,
                                         contentDescription = "单词发音",
-                                        tint = Color.White
+                                        tint = Ink
                                     )
                                 }
                             }
                         }
-                        Spacer(modifier = Modifier.height(18.dp))
                         OutlinedTextField(
                             value = answer,
                             onValueChange = { answer = it },
@@ -158,7 +233,6 @@ fun DailyPracticeScreen(
                             label = { Text("输入答案") },
                             singleLine = true
                         )
-                        Spacer(modifier = Modifier.height(12.dp))
                         if (submitted) {
                             Text(
                                 text = if (isCorrect) {
@@ -166,21 +240,25 @@ fun DailyPracticeScreen(
                                 } else {
                                     "回答错误，正确答案：${currentQuestion.expectedAnswer}"
                                 },
-                                color = if (isCorrect) Mist else Color(0xFFFFE082),
+                                color = if (isCorrect) Ink else Color(0xFFB36827),
                                 style = MaterialTheme.typography.bodyLarge
                             )
-                            Spacer(modifier = Modifier.height(12.dp))
-                            Button(
-                                onClick = {
-                                    if (currentIndex == questions.lastIndex) {
-                                        onNextQuestion()
-                                    } else {
-                                        onNextQuestion()
-                                    }
-                                },
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Text(if (currentIndex == questions.lastIndex) "完成练习" else "下一题")
+                            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                                Button(
+                                    onClick = onPreviousQuestion,
+                                    modifier = Modifier.weight(1f),
+                                    enabled = currentIndex > 0,
+                                    colors = ButtonDefaults.buttonColors(containerColor = PaperSoft, contentColor = Ink)
+                                ) {
+                                    Text("上一题")
+                                }
+                                Button(
+                                    onClick = onNextQuestion,
+                                    modifier = Modifier.weight(1f),
+                                    colors = ButtonDefaults.buttonColors(containerColor = Ink, contentColor = Honey)
+                                ) {
+                                    Text(if (currentIndex == questions.lastIndex) "完成练习" else "下一题")
+                                }
                             }
                         } else {
                             Button(
@@ -188,10 +266,11 @@ fun DailyPracticeScreen(
                                     val result = currentQuestion.isCorrect(answer)
                                     isCorrect = result
                                     submitted = true
-                                    onSubmitAnswer(result)
+                                    onSubmitAnswer(answer, result)
                                 },
                                 modifier = Modifier.fillMaxWidth(),
-                                enabled = answer.isNotBlank()
+                                enabled = answer.isNotBlank(),
+                                colors = ButtonDefaults.buttonColors(containerColor = Ink, contentColor = Honey)
                             ) {
                                 Text("提交答案")
                             }

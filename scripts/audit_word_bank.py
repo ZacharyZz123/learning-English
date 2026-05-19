@@ -14,6 +14,33 @@ REPORT_MD = ROOT / "词汇" / "单词" / "00_词库自检报告.md"
 IPA_ALLOWED = re.compile(r"^[A-Za-zɒɑæʌəɜɛɪʊɔθðʃʒŋɡːˈˌ/;().,\-\s]+$")
 CJK_SPACES = re.compile(r"[\u4e00-\u9fff]\s+[\u4e00-\u9fff]")
 ALLOW_EMPTY_PHONETIC = {"P.E.", "VCD"}
+PURE_CJK_MEANING = re.compile(r"^[\u4e00-\u9fff]{4,}$")
+COMMON_GLUE_ERRORS = [
+    "商店买东西",
+    "冷的感冒",
+    "红色红色的",
+    "蓝色蓝色的",
+    "高的高地",
+    "快的快地",
+    "早的早地",
+    "黑暗黑暗的",
+    "照料关心",
+    "拍手鼓掌",
+    "弄干净清洁的",
+    "亲密的关闭",
+    "厨师烹调",
+    "盖子覆盖",
+    "十字形的东西越过",
+    "乱扔杂物垃圾",
+    "金属金属制成的",
+    "牛奶挤奶",
+    "橘子橘色的",
+    "在外面外面的",
+    "打电话电话",
+    "安全的保险柜",
+    "成直线地",
+]
+REPEATED_MEANING_SEGMENT = re.compile(r"^([\u4e00-\u9fff]{2,4})\1")
 
 
 def normalize_word(value: str) -> str:
@@ -117,6 +144,33 @@ def audit_json(issues: list[dict]) -> None:
             target = normalize_ipa(phonetic)
             if merged != target:
                 add_issue(issues, f"words.json:{idx}", word, "sounds", "error", "分块音标拼接后与整词音标不一致")
+        audit_meaning_semantics(issues, idx, item)
+
+
+def audit_meaning_semantics(issues: list[dict], idx: int, item: dict) -> None:
+    word = item.get("word", "")
+    meaning = item.get("meaning", "").strip()
+
+    if meaning in COMMON_GLUE_ERRORS:
+        add_issue(
+            issues,
+            f"words.json:{idx}",
+            word,
+            "meaning",
+            "error",
+            "中文释义明显是多个义项直接拼接，当前题面会误导答题"
+        )
+        return
+
+    if PURE_CJK_MEANING.fullmatch(meaning) and REPEATED_MEANING_SEGMENT.search(meaning):
+        add_issue(
+            issues,
+            f"words.json:{idx}",
+            word,
+            "meaning",
+            "warn",
+            "中文释义前后重复，疑似多个义项或 OCR 粘连"
+        )
 
 
 def write_reports(issues: list[dict], row_count: int) -> None:

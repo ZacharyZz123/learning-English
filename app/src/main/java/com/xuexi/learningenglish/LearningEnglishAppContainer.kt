@@ -8,6 +8,7 @@ class LearningEnglishAppContainer(context: Context) {
     private val database = AppDatabase.getDatabase(context)
     val repository = WordRepository(
         context = context,
-        progressDao = database.wordProgressDao()
+        progressDao = database.wordProgressDao(),
+        pointTransactionDao = database.pointTransactionDao()
     )
 }

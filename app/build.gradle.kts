@@ -5,6 +5,25 @@ plugins {
     id("com.google.devtools.ksp")
 }
 
+import java.util.Properties
+
+val versionPropertiesFile = rootProject.file("version.properties")
+val versionProperties = Properties().apply {
+    if (versionPropertiesFile.exists()) {
+        versionPropertiesFile.inputStream().use { load(it) }
+    }
+}
+
+val previousVersionCode = versionProperties.getProperty("VERSION_CODE", "0").toInt()
+val nextVersionCode = previousVersionCode + 1
+val nextVersionName = "0.0.$nextVersionCode"
+
+versionProperties["VERSION_CODE"] = nextVersionCode.toString()
+versionProperties["VERSION_NAME"] = nextVersionName
+versionPropertiesFile.outputStream().use { output ->
+    versionProperties.store(output, "Auto-generated version info")
+}
+
 android {
     namespace = "com.xuexi.learningenglish"
     compileSdk = 34
@@ -13,8 +32,8 @@ android {
         applicationId = "com.xuexi.learningenglish"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = nextVersionCode
+        versionName = nextVersionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -40,6 +59,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.14"

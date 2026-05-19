@@ -3,6 +3,7 @@ package com.xuexi.learningenglish.ui.navigation
 import android.widget.Toast
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
@@ -20,6 +21,8 @@ import com.xuexi.learningenglish.data.local.WordStatus
 import com.xuexi.learningenglish.ui.screen.DailyLearningScreen
 import com.xuexi.learningenglish.ui.screen.DailyPracticeScreen
 import com.xuexi.learningenglish.ui.screen.HomeScreen
+import com.xuexi.learningenglish.ui.screen.PointsScreen
+import com.xuexi.learningenglish.ui.screen.RankingScreen
 import com.xuexi.learningenglish.ui.screen.WordDetailScreen
 import com.xuexi.learningenglish.ui.screen.WordListScreen
 import com.xuexi.learningenglish.ui.screen.WrongBookScreen
@@ -45,18 +48,41 @@ fun AppNavHost(viewModel: WordViewModel) {
         }
     }
 
+    LaunchedEffect(uiState.pointsNotice) {
+        uiState.pointsNotice?.let {
+            Toast.makeText(context, it, Toast.LENGTH_SHORT).show()
+            viewModel.consumePointsNotice()
+        }
+    }
+
     NavHost(navController = navController, startDestination = "home") {
         composable("home") {
             HomeScreen(
                 wrongCount = uiState.wrongCards.size,
+                totalWordCount = uiState.totalWordCount,
+                learnedWordCount = uiState.learnedWordCount,
+                unlearnedWordCount = uiState.unlearnedWordCount,
+                continuousLearningDays = uiState.continuousLearningDays,
+                pointsBalance = uiState.pointsBalance,
                 dailyTarget = uiState.dailyTarget,
+                versionName = uiState.versionName,
                 onDailyTargetChange = viewModel::updateDailyTarget,
                 onOpenDailyLearning = {
                     viewModel.startDailyLearning(uiState.dailyTarget)
                     navController.navigate("daily")
                 },
+                onOpenDailyPractice = {
+                    viewModel.startPracticeSession()
+                    navController.navigate("daily-practice")
+                },
                 onOpenWrongBook = { navController.navigate("wrong-book") },
-                onOpenWords = { navController.navigate("words") }
+                onOpenWords = { navController.navigate("words") },
+                onOpenPoints = { navController.navigate("points") },
+                onOpenRanking = { navController.navigate("ranking") },
+                onOpenReviewPractice = {
+                    viewModel.startReviewPracticeSession()
+                    navController.navigate("review-practice")
+                }
             )
         }
         composable("daily") {
@@ -73,7 +99,6 @@ fun AppNavHost(viewModel: WordViewModel) {
                     navController.popBackStack()
                 },
                 onRemembered = viewModel::markDailyRemembered,
-                onForgotten = viewModel::markDailyForgotten,
                 onFinish = {
                     viewModel.startPracticeSession()
                     navController.navigate("daily-practice")
@@ -83,15 +108,44 @@ fun AppNavHost(viewModel: WordViewModel) {
         composable("daily-practice") {
             DailyPracticeScreen(
                 questions = uiState.practiceQuestions,
+                mode = uiState.practiceMode,
                 currentIndex = uiState.currentPracticeIndex,
                 currentQuestion = uiState.currentPracticeQuestion,
                 correctCount = uiState.practiceCorrectCount,
                 wrongCount = uiState.practiceWrongCount,
+                answerRecords = uiState.practiceAnswers,
+                previewVisible = uiState.practicePreviewVisible,
                 speechRate = speechRate,
                 onSpeechRateChange = { speechRate = it },
                 onSpeakWord = onSpeakWord,
                 onSubmitAnswer = viewModel::recordPracticeAnswer,
                 onNextQuestion = viewModel::nextPracticeQuestion,
+                onPreviousQuestion = viewModel::previousPracticeQuestion,
+                onDismissPreview = viewModel::dismissPracticePreview,
+                onFinish = {
+                    viewModel.clearDailySession()
+                    navController.popBackStack("home", inclusive = false)
+                },
+                onBack = { navController.popBackStack() }
+            )
+        }
+        composable("review-practice") {
+            DailyPracticeScreen(
+                questions = uiState.practiceQuestions,
+                mode = uiState.practiceMode,
+                currentIndex = uiState.currentPracticeIndex,
+                currentQuestion = uiState.currentPracticeQuestion,
+                correctCount = uiState.practiceCorrectCount,
+                wrongCount = uiState.practiceWrongCount,
+                answerRecords = uiState.practiceAnswers,
+                previewVisible = uiState.practicePreviewVisible,
+                speechRate = speechRate,
+                onSpeechRateChange = { speechRate = it },
+                onSpeakWord = onSpeakWord,
+                onSubmitAnswer = viewModel::recordPracticeAnswer,
+                onNextQuestion = viewModel::nextPracticeQuestion,
+                onPreviousQuestion = viewModel::previousPracticeQuestion,
+                onDismissPreview = viewModel::dismissPracticePreview,
                 onFinish = {
                     viewModel.clearDailySession()
                     navController.popBackStack("home", inclusive = false)
@@ -123,6 +177,21 @@ fun AppNavHost(viewModel: WordViewModel) {
                     viewModel.selectWord(word)
                     navController.navigate("word/${word}")
                 },
+                onBack = { navController.popBackStack() }
+            )
+        }
+        composable("points") {
+            PointsScreen(
+                pointsBalance = uiState.pointsBalance,
+                transactions = uiState.pointTransactions,
+                onRedeemCash = viewModel::redeemCash,
+                onRedeemCustom = viewModel::redeemCustom,
+                onBack = { navController.popBackStack() }
+            )
+        }
+        composable("ranking") {
+            RankingScreen(
+                items = uiState.errorRanking,
                 onBack = { navController.popBackStack() }
             )
         }
